@@ -1,0 +1,4080 @@
+{
+    "status": "ok",
+    "message": "",
+    "data": [
+        {
+            "symbol": "ACIETF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7318788.1
+        },
+        {
+            "symbol": "AKDCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.4667
+        },
+        {
+            "symbol": "AKZO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 144.8782
+        },
+        {
+            "symbol": "AYTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -219.195
+        },
+        {
+            "symbol": "BPBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.3735
+        },
+        {
+            "symbol": "CECL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.32
+        },
+        {
+            "symbol": "CPAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.5638
+        },
+        {
+            "symbol": "CSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.1954
+        },
+        {
+            "symbol": "DMIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 174.7038
+        },
+        {
+            "symbol": "EFOODS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.285
+        },
+        {
+            "symbol": "EWLA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.5386
+        },
+        {
+            "symbol": "GASF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.9098
+        },
+        {
+            "symbol": "GLAT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.3042
+        },
+        {
+            "symbol": "HAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.8962
+        },
+        {
+            "symbol": "ICCT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.2601
+        },
+        {
+            "symbol": "IGIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.2269
+        },
+        {
+            "symbol": "IMSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 101.0283
+        },
+        {
+            "symbol": "ISTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 76.1982
+        },
+        {
+            "symbol": "LINDE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 78.5688
+        },
+        {
+            "symbol": "MOIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1498.7095
+        },
+        {
+            "symbol": "NPSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -32.258
+        },
+        {
+            "symbol": "PGCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 80.2903
+        },
+        {
+            "symbol": "PGF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.2038
+        },
+        {
+            "symbol": "PIF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.8634
+        },
+        {
+            "symbol": "RAVT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.0901
+        },
+        {
+            "symbol": "SALT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1261.2576
+        },
+        {
+            "symbol": "SERF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.4883
+        },
+        {
+            "symbol": "SFLL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.8076
+        },
+        {
+            "symbol": "SING",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 176.4182
+        },
+        {
+            "symbol": "SRSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.9737
+        },
+        {
+            "symbol": "ADOS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.403871591048485
+        },
+        {
+            "symbol": "AEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.360471260732622
+        },
+        {
+            "symbol": "AWWAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.978061616049182
+        },
+        {
+            "symbol": "BCML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 162.7451160573315
+        },
+        {
+            "symbol": "BIPLS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.172212738017071
+        },
+        {
+            "symbol": "BRR",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.67277216208296
+        },
+        {
+            "symbol": "BYCO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.138670366551015
+        },
+        {
+            "symbol": "DATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.494753666479717
+        },
+        {
+            "symbol": "DKL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.6516524000000006
+        },
+        {
+            "symbol": "FDIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.847132831624271
+        },
+        {
+            "symbol": "GAIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.11688107475743442
+        },
+        {
+            "symbol": "GEMUNSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.775425086439622
+        },
+        {
+            "symbol": "GHNL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 105.3405194677761
+        },
+        {
+            "symbol": "GSKCH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 56.781177716857485
+        },
+        {
+            "symbol": "GTECH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 51.042349313306886
+        },
+        {
+            "symbol": "HACC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 47.948905055728375
+        },
+        {
+            "symbol": "HMM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.227383757406814
+        },
+        {
+            "symbol": "HSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.27598203976296
+        },
+        {
+            "symbol": "ICI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 291.5051277498181
+        },
+        {
+            "symbol": "IGIIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.057728921970504
+        },
+        {
+            "symbol": "JOPP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 70.01787726662917
+        },
+        {
+            "symbol": "JPGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -42.497122082279844
+        },
+        {
+            "symbol": "KASBM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.640196611635671
+        },
+        {
+            "symbol": "KHSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.2538271189908943
+        },
+        {
+            "symbol": "MCBAH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.337617661515612
+        },
+        {
+            "symbol": "NIB",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.9070977697874703
+        },
+        {
+            "symbol": "ORIXM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.785165894932298
+        },
+        {
+            "symbol": "PAKMI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.588457187971929
+        },
+        {
+            "symbol": "PGIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.754867127450416
+        },
+        {
+            "symbol": "SAPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 517.2333861963842
+        },
+        {
+            "symbol": "SMBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.7704240139202927
+        },
+        {
+            "symbol": "SMTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.2976927772861075
+        },
+        {
+            "symbol": "TDIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.93395156422124
+        },
+        {
+            "symbol": "TRPOL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.18768751880722
+        },
+        {
+            "symbol": "WHALE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.96170716396989
+        },
+        {
+            "symbol": "WYETH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 748.1762142961057
+        },
+        {
+            "symbol": "PSMC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 119.29285718399899
+        },
+        {
+            "symbol": "LSEPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.74795061728395
+        },
+        {
+            "symbol": "MODAM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.51214483543571
+        },
+        {
+            "symbol": "ARM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.20899279217822
+        },
+        {
+            "symbol": "FUDLM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.264639395793564
+        },
+        {
+            "symbol": "META",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.0545180050377199
+        },
+        {
+            "symbol": "CLOUD",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.981166148057844
+        },
+        {
+            "symbol": "EFGH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -410.970079864203
+        },
+        {
+            "symbol": "LMSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 76.0710244325138
+        },
+        {
+            "symbol": "DSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.014303931965891744
+        },
+        {
+            "symbol": "FFBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.46352509409332
+        },
+        {
+            "symbol": "DAWH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 64.09890347384074
+        },
+        {
+            "symbol": "ENGRO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 148.59195294225964
+        },
+        {
+            "symbol": "HCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 103.17256458599122
+        },
+        {
+            "symbol": "SPLC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.854032556968429
+        },
+        {
+            "symbol": "SHEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 96.24291581509874
+        },
+        {
+            "symbol": "SILK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.219803945111256
+        },
+        {
+            "symbol": "HIFA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.8662964257315
+        },
+        {
+            "symbol": "DMTX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 213.02485466505195
+        },
+        {
+            "symbol": "PMI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.9048569070359465
+        },
+        {
+            "symbol": "ZHCM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.46887574326208
+        },
+        {
+            "symbol": "AAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.12507190465396
+        },
+        {
+            "symbol": "AASM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.7478505018710377
+        },
+        {
+            "symbol": "APOT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.732918610716546
+        },
+        {
+            "symbol": "DBSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.150978495087055
+        },
+        {
+            "symbol": "DCTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.377124977452967
+        },
+        {
+            "symbol": "DKTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.4962138065318262
+        },
+        {
+            "symbol": "DSFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -79.49914698751905
+        },
+        {
+            "symbol": "FNBM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.347812999403486
+        },
+        {
+            "symbol": "GLOT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.189062081286289
+        },
+        {
+            "symbol": "GUTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -466.76203294912176
+        },
+        {
+            "symbol": "HADC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.062354450116942906
+        },
+        {
+            "symbol": "HATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.11697784126701
+        },
+        {
+            "symbol": "HMIM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.09294581637572012
+        },
+        {
+            "symbol": "HSPI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 100.6358748044998
+        },
+        {
+            "symbol": "ITANZ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.46887574326208
+        },
+        {
+            "symbol": "MUBT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 38.024260056673214
+        },
+        {
+            "symbol": "PHDL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 82.91516917894735
+        },
+        {
+            "symbol": "PRIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.4337445255561265
+        },
+        {
+            "symbol": "SANE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -106.72128246618387
+        },
+        {
+            "symbol": "SHCI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.232810586026091
+        },
+        {
+            "symbol": "SLCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.291596244522884
+        },
+        {
+            "symbol": "SLL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.346353659496023
+        },
+        {
+            "symbol": "SPCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.215795204492604
+        },
+        {
+            "symbol": "TRIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.946587406289
+        },
+        {
+            "symbol": "ZELP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.399093152779295
+        },
+        {
+            "symbol": "786",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.184712022279147
+        },
+        {
+            "symbol": "AABS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 491.3302550213466
+        },
+        {
+            "symbol": "AATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 58.39417257849695
+        },
+        {
+            "symbol": "ABL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 215.8767675223069
+        },
+        {
+            "symbol": "ABOT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 270.0060737668302
+        },
+        {
+            "symbol": "ACPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 163.7759513509111
+        },
+        {
+            "symbol": "ADAMS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 305.72226798121994
+        },
+        {
+            "symbol": "ADMM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 92.76806869445511
+        },
+        {
+            "symbol": "AGHA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.78548098307434
+        },
+        {
+            "symbol": "AGIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 44.3541016930274
+        },
+        {
+            "symbol": "AGIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 119.47964384945695
+        },
+        {
+            "symbol": "AGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.12527128922513
+        },
+        {
+            "symbol": "AGP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 43.59744972170475
+        },
+        {
+            "symbol": "AGSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.969001988873803
+        },
+        {
+            "symbol": "AGTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 157.38145836434092
+        },
+        {
+            "symbol": "AHCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.711258027951072
+        },
+        {
+            "symbol": "AHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.494956182744748
+        },
+        {
+            "symbol": "AHTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 280.9798557024688
+        },
+        {
+            "symbol": "AICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 125.47244869766341
+        },
+        {
+            "symbol": "AIRLINK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.05394216667738
+        },
+        {
+            "symbol": "AKBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 93.98937234282785
+        },
+        {
+            "symbol": "AKDHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.708328262731364
+        },
+        {
+            "symbol": "AKDSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.80532112006477
+        },
+        {
+            "symbol": "AKGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.823351252650156
+        },
+        {
+            "symbol": "ALAC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.3108507788743373
+        },
+        {
+            "symbol": "ALIFE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.64031261758329
+        },
+        {
+            "symbol": "ALNRS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 344.84787223095896
+        },
+        {
+            "symbol": "ALTN",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.723937187807916
+        },
+        {
+            "symbol": "AMBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -22.2709828619959
+        },
+        {
+            "symbol": "AMTEX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -34.7830168671379
+        },
+        {
+            "symbol": "ANL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.121370792553094
+        },
+        {
+            "symbol": "ANSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -27.845665112125115
+        },
+        {
+            "symbol": "ANTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 80.17058491170502
+        },
+        {
+            "symbol": "APL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 481.5379210481547
+        },
+        {
+            "symbol": "ARCTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.545221471141936
+        },
+        {
+            "symbol": "ARPAK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 74.41890409805266
+        },
+        {
+            "symbol": "ARPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 135.73864284307615
+        },
+        {
+            "symbol": "ARUJ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.735310952331663
+        },
+        {
+            "symbol": "ASC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.8579680573763384
+        },
+        {
+            "symbol": "ASHT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.46770533907881
+        },
+        {
+            "symbol": "ASIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.170783673897692
+        },
+        {
+            "symbol": "ASL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.63788926171021
+        },
+        {
+            "symbol": "ASTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 38.26553822665355
+        },
+        {
+            "symbol": "ASTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.576490435297384
+        },
+        {
+            "symbol": "ATBA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 212.24970122252074
+        },
+        {
+            "symbol": "ATIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 57.59971796823217
+        },
+        {
+            "symbol": "ATLH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 289.7855821988216
+        },
+        {
+            "symbol": "ATRL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1315.3737426333719
+        },
+        {
+            "symbol": "AVN",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.611057335426697
+        },
+        {
+            "symbol": "AWTX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1769.845143065406
+        },
+        {
+            "symbol": "BAFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 110.47936000390006
+        },
+        {
+            "symbol": "BAFS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 319.3938051180205
+        },
+        {
+            "symbol": "BAHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 147.0496028019697
+        },
+        {
+            "symbol": "BAPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 304.5192456102903
+        },
+        {
+            "symbol": "BATA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 718.4276976683061
+        },
+        {
+            "symbol": "BBFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.091057936288813
+        },
+        {
+            "symbol": "BCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.031394980361405
+        },
+        {
+            "symbol": "BECO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.39846475126072
+        },
+        {
+            "symbol": "BELA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.73989086628914
+        },
+        {
+            "symbol": "BERG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 146.05197777055704
+        },
+        {
+            "symbol": "BFAGRO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.787078188382235
+        },
+        {
+            "symbol": "BFBIO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 55.783372179637034
+        },
+        {
+            "symbol": "BFMOD",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.42655164155121
+        },
+        {
+            "symbol": "BGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.4832524363698545
+        },
+        {
+            "symbol": "BHAT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3608.5750904609504
+        },
+        {
+            "symbol": "BIFO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 69.21722951490702
+        },
+        {
+            "symbol": "BILF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.08227972219389264
+        },
+        {
+            "symbol": "BIPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 43.71160265784238
+        },
+        {
+            "symbol": "BML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.903483359189175
+        },
+        {
+            "symbol": "BNL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.60803182150238
+        },
+        {
+            "symbol": "BNWM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 319.0939964439928
+        },
+        {
+            "symbol": "BOK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.02681946899926
+        },
+        {
+            "symbol": "BOP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.41539879846112
+        },
+        {
+            "symbol": "BPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.227963610397556
+        },
+        {
+            "symbol": "BRRG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.76291644448714
+        },
+        {
+            "symbol": "BTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1237.4457648613627
+        },
+        {
+            "symbol": "BUXL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 130.44532150776055
+        },
+        {
+            "symbol": "BWCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 215.04504098579108
+        },
+        {
+            "symbol": "BWHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 173.44161710743958
+        },
+        {
+            "symbol": "CASH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.79888078704075
+        },
+        {
+            "symbol": "CCM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 551.3854153182309
+        },
+        {
+            "symbol": "CENI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 57.09479952877614
+        },
+        {
+            "symbol": "CEPB",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.23752412990487
+        },
+        {
+            "symbol": "CFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 279.4617655646958
+        },
+        {
+            "symbol": "CHAS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 441.33124547525614
+        },
+        {
+            "symbol": "CHBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -45.498546316119
+        },
+        {
+            "symbol": "CHCC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 171.42360383792578
+        },
+        {
+            "symbol": "CJPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.44159753767394
+        },
+        {
+            "symbol": "CLOV",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.608510288163286
+        },
+        {
+            "symbol": "CLVL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.284504414583276
+        },
+        {
+            "symbol": "CNERGY",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.312779454179548
+        },
+        {
+            "symbol": "COLG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 153.298140112396
+        },
+        {
+            "symbol": "CPHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.349773437355367
+        },
+        {
+            "symbol": "CPPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 179.0727963055963
+        },
+        {
+            "symbol": "CRTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 112.3544326116529
+        },
+        {
+            "symbol": "CSAP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 114.8515539214117
+        },
+        {
+            "symbol": "CSIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.100977209356719
+        },
+        {
+            "symbol": "CTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.139005202560076
+        },
+        {
+            "symbol": "CWSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.412912731130952
+        },
+        {
+            "symbol": "CYAN",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.45546675944961
+        },
+        {
+            "symbol": "DAAG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 57.231386313384924
+        },
+        {
+            "symbol": "DADX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.004420619731878
+        },
+        {
+            "symbol": "DBCI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.825534989858012
+        },
+        {
+            "symbol": "DCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 55.06054534727166
+        },
+        {
+            "symbol": "DCR",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.50673201941313
+        },
+        {
+            "symbol": "DEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.09627684195677
+        },
+        {
+            "symbol": "DFML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -27.718020233833577
+        },
+        {
+            "symbol": "DFSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.585317706513333
+        },
+        {
+            "symbol": "DGKC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 199.70573728662828
+        },
+        {
+            "symbol": "DIIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.628524876063633
+        },
+        {
+            "symbol": "DINT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 156.14240021444218
+        },
+        {
+            "symbol": "DLL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 345.20939171220687
+        },
+        {
+            "symbol": "DMC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 213.02485466505195
+        },
+        {
+            "symbol": "DMTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.47063754665936
+        },
+        {
+            "symbol": "DNCC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 45.53184735391365
+        },
+        {
+            "symbol": "DOL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.667043531744874
+        },
+        {
+            "symbol": "DSIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.6394178192707585
+        },
+        {
+            "symbol": "DSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.4378772862834019
+        },
+        {
+            "symbol": "DWAE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -72.97952948424233
+        },
+        {
+            "symbol": "DWSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -15.357989736570339
+        },
+        {
+            "symbol": "DWTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -61.42279613743716
+        },
+        {
+            "symbol": "DYNO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 258.47441207642873
+        },
+        {
+            "symbol": "ECOP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.718436911487764
+        },
+        {
+            "symbol": "EFERT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.458000110310387
+        },
+        {
+            "symbol": "EFUG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 123.53997243602267
+        },
+        {
+            "symbol": "EFUL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 86.30264967684656
+        },
+        {
+            "symbol": "ELCM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 78.19904403058864
+        },
+        {
+            "symbol": "ELSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 391.82162045612546
+        },
+        {
+            "symbol": "EMCO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 94.45646361881188
+        },
+        {
+            "symbol": "ENGROH",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 346.51371079807416
+        },
+        {
+            "symbol": "EPCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.284460008804288
+        },
+        {
+            "symbol": "EPQL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.628795818386386
+        },
+        {
+            "symbol": "ESBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.4745106282765166
+        },
+        {
+            "symbol": "EWIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.299304003557253
+        },
+        {
+            "symbol": "EXIDE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 896.9744239220147
+        },
+        {
+            "symbol": "FABL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 72.6664279472616
+        },
+        {
+            "symbol": "FANM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.737541554948694
+        },
+        {
+            "symbol": "FASM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1218.0524143856435
+        },
+        {
+            "symbol": "FATIMA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 70.69527216739125
+        },
+        {
+            "symbol": "FCCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.543943776328767
+        },
+        {
+            "symbol": "FCEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.8970655912991528
+        },
+        {
+            "symbol": "FCEPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.334354970316596
+        },
+        {
+            "symbol": "FCIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.536862709587078
+        },
+        {
+            "symbol": "FCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.934200648346824
+        },
+        {
+            "symbol": "FCSC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.7882957597641
+        },
+        {
+            "symbol": "FDPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.508590750047818
+        },
+        {
+            "symbol": "FECM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.87470060275576
+        },
+        {
+            "symbol": "FECTC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 81.99123839314466
+        },
+        {
+            "symbol": "FEM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.380206180843174
+        },
+        {
+            "symbol": "FEROZ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 212.2399486974971
+        },
+        {
+            "symbol": "FFC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 88.04016573556719
+        },
+        {
+            "symbol": "FFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.035979533069914
+        },
+        {
+            "symbol": "FFLM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.431774388163628
+        },
+        {
+            "symbol": "FHAM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 52.162693598283475
+        },
+        {
+            "symbol": "FIBLM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.562038519144101
+        },
+        {
+            "symbol": "FIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -46.660992938376836
+        },
+        {
+            "symbol": "FIMM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 84.6351529786654
+        },
+        {
+            "symbol": "FLYNG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.05612602614398
+        },
+        {
+            "symbol": "FML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 85.22303656726216
+        },
+        {
+            "symbol": "FNEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.1676956061221644
+        },
+        {
+            "symbol": "FPJM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.261818302968605
+        },
+        {
+            "symbol": "FPRM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.197170322569463
+        },
+        {
+            "symbol": "FRCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 48.88291742987661
+        },
+        {
+            "symbol": "FRSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 64.8729884895457
+        },
+        {
+            "symbol": "FSWL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 281.74731464989026
+        },
+        {
+            "symbol": "FTMM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.967006887275142
+        },
+        {
+            "symbol": "FTSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -42.41838992258969
+        },
+        {
+            "symbol": "FZCM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1560.733589932048
+        },
+        {
+            "symbol": "GADT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 853.00982354643
+        },
+        {
+            "symbol": "GAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 164.64072675837073
+        },
+        {
+            "symbol": "GAMON",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.746839321156486
+        },
+        {
+            "symbol": "GATI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 107.01209495488705
+        },
+        {
+            "symbol": "GATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 63.41000211296982
+        },
+        {
+            "symbol": "GCIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.72119794600926
+        },
+        {
+            "symbol": "GEMBLUEX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.17392636465939
+        },
+        {
+            "symbol": "GEMMEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.371439884252002
+        },
+        {
+            "symbol": "GEMPAPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.38036617890008
+        },
+        {
+            "symbol": "GEMSPNL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.037005433688872
+        },
+        {
+            "symbol": "GFIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 140.86274489520167
+        },
+        {
+            "symbol": "GGGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.592838689792327
+        },
+        {
+            "symbol": "GGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.067975133373055
+        },
+        {
+            "symbol": "GHGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.33413525072567
+        },
+        {
+            "symbol": "GHNI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 279.69382390690396
+        },
+        {
+            "symbol": "GIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3366.531763933513
+        },
+        {
+            "symbol": "GLAXO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 91.95356002447878
+        },
+        {
+            "symbol": "GLPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 35.86761156069364
+        },
+        {
+            "symbol": "GOC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 94.35602891013257
+        },
+        {
+            "symbol": "GRR",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.23993384058838
+        },
+        {
+            "symbol": "GRYL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.562595213138198
+        },
+        {
+            "symbol": "GSPM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -133.83816477084855
+        },
+        {
+            "symbol": "GTYR",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 47.78490590777351
+        },
+        {
+            "symbol": "GUSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -109.68332205616636
+        },
+        {
+            "symbol": "GVGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.94540657120193
+        },
+        {
+            "symbol": "GWLC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 63.25166325886361
+        },
+        {
+            "symbol": "HABSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 114.83640580849786
+        },
+        {
+            "symbol": "HAEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.830909904296234
+        },
+        {
+            "symbol": "HAFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 434.33551032824073
+        },
+        {
+            "symbol": "HALEON",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 112.78877013428907
+        },
+        {
+            "symbol": "HASCOL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -91.48349032547584
+        },
+        {
+            "symbol": "HBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 307.09136200393004
+        },
+        {
+            "symbol": "HCAR",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 161.91308716309513
+        },
+        {
+            "symbol": "HGFA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 41.79387742876891
+        },
+        {
+            "symbol": "HICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.760619644527594
+        },
+        {
+            "symbol": "HINO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 236.75218866595463
+        },
+        {
+            "symbol": "HINOON",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 202.49530498083422
+        },
+        {
+            "symbol": "HIRAT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.30600660513571
+        },
+        {
+            "symbol": "HMB",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 114.77130316077664
+        },
+        {
+            "symbol": "HPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 735.9491011242105
+        },
+        {
+            "symbol": "HRPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.937955190717876
+        },
+        {
+            "symbol": "HTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.232916929580867
+        },
+        {
+            "symbol": "HUBC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 58.78961147469549
+        },
+        {
+            "symbol": "HUMNL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.330930601851973
+        },
+        {
+            "symbol": "HUSI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.663487861208313
+        },
+        {
+            "symbol": "HWQS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.63019068029782
+        },
+        {
+            "symbol": "IBFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 187.62855046555092
+        },
+        {
+            "symbol": "IBLHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.2409702405805
+        },
+        {
+            "symbol": "ICCI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.5444372354537945
+        },
+        {
+            "symbol": "ICIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.3229134897368025
+        },
+        {
+            "symbol": "ICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 98.66918716664894
+        },
+        {
+            "symbol": "IDRT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 117.238196666011
+        },
+        {
+            "symbol": "IDSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.22732252177383
+        },
+        {
+            "symbol": "IDYM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 452.19577549228956
+        },
+        {
+            "symbol": "IGIHL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 110.4140969931298
+        },
+        {
+            "symbol": "IGIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.324344878528741
+        },
+        {
+            "symbol": "ILP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 39.4406304803464
+        },
+        {
+            "symbol": "IMAGE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.35928964845917
+        },
+        {
+            "symbol": "IML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 104.4945232927033
+        },
+        {
+            "symbol": "IMS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.21332288754408
+        },
+        {
+            "symbol": "INDU",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 979.0286439325329
+        },
+        {
+            "symbol": "INIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 144.54889554152584
+        },
+        {
+            "symbol": "INKL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.09045849413016
+        },
+        {
+            "symbol": "IPAK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.733247997931834
+        },
+        {
+            "symbol": "ISL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 51.372338678386754
+        },
+        {
+            "symbol": "ITTEFAQ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.747156413732665
+        },
+        {
+            "symbol": "JATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.929465717202962
+        },
+        {
+            "symbol": "JDMT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 763.6316734675491
+        },
+        {
+            "symbol": "JDWS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 490.8137348145467
+        },
+        {
+            "symbol": "JGICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 95.57187816958036
+        },
+        {
+            "symbol": "JKSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 135.8400603275983
+        },
+        {
+            "symbol": "JLICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 172.8146746592822
+        },
+        {
+            "symbol": "JSBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.442448351750066
+        },
+        {
+            "symbol": "JSCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.88373520710059
+        },
+        {
+            "symbol": "JSGCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 116.38503101051725
+        },
+        {
+            "symbol": "JSIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.1541016217082
+        },
+        {
+            "symbol": "JSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 278.6393992955326
+        },
+        {
+            "symbol": "JUBS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.264011072936064
+        },
+        {
+            "symbol": "JVDC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 66.66050352283227
+        },
+        {
+            "symbol": "KAPCO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 64.84158915485207
+        },
+        {
+            "symbol": "KCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 62.68581381119151
+        },
+        {
+            "symbol": "KEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.661179804848821
+        },
+        {
+            "symbol": "KHTC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 450.89796843963836
+        },
+        {
+            "symbol": "KHYT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1107.9915635985128
+        },
+        {
+            "symbol": "KML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.9994470132862
+        },
+        {
+            "symbol": "KOHC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 49.591018666311264
+        },
+        {
+            "symbol": "KOHE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.129685608220324
+        },
+        {
+            "symbol": "KOHP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.784984384404376
+        },
+        {
+            "symbol": "KOHTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 198.08547509313811
+        },
+        {
+            "symbol": "KOIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 35.412148102455916
+        },
+        {
+            "symbol": "KOSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.0432435324373248
+        },
+        {
+            "symbol": "KPUS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 262.4195896946562
+        },
+        {
+            "symbol": "KSBP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 225.07068744186046
+        },
+        {
+            "symbol": "KSTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.662392289461363
+        },
+        {
+            "symbol": "KTML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 118.7497702100795
+        },
+        {
+            "symbol": "LCI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 106.07983977192762
+        },
+        {
+            "symbol": "LEUL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.1115817918648636
+        },
+        {
+            "symbol": "LIVEN",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 83.66765001162997
+        },
+        {
+            "symbol": "LOADS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.369963601157206
+        },
+        {
+            "symbol": "LOTCHEM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.404004067027104
+        },
+        {
+            "symbol": "LPGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 119.28384728340669
+        },
+        {
+            "symbol": "LPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.22303781104261
+        },
+        {
+            "symbol": "LSECL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.830337911346327
+        },
+        {
+            "symbol": "LSEFSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.369605568445484
+        },
+        {
+            "symbol": "LSEVL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.55924051490245
+        },
+        {
+            "symbol": "LUCK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 120.08329754943176
+        },
+        {
+            "symbol": "MACFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.749217132053595
+        },
+        {
+            "symbol": "MACTER",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 77.10197999007504
+        },
+        {
+            "symbol": "MARI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 223.29073347695396
+        },
+        {
+            "symbol": "MCB",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 243.0656107890096
+        },
+        {
+            "symbol": "MCBIM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 45.5574745650582
+        },
+        {
+            "symbol": "MDTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.557823014187979
+        },
+        {
+            "symbol": "MEBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 147.3642462537458
+        },
+        {
+            "symbol": "MEHT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 602.6946511320624
+        },
+        {
+            "symbol": "MERIT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.285176626356119
+        },
+        {
+            "symbol": "MFFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.380977225216764
+        },
+        {
+            "symbol": "MFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 83.98650737801124
+        },
+        {
+            "symbol": "MIRKS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 49.48335502699907
+        },
+        {
+            "symbol": "MLCF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 68.20497635940606
+        },
+        {
+            "symbol": "MQTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 107.42894657780005
+        },
+        {
+            "symbol": "MRNS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 55.04153832747901
+        },
+        {
+            "symbol": "MSCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.459571498734785
+        },
+        {
+            "symbol": "MSOT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 251.37174803994125
+        },
+        {
+            "symbol": "MTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.79646899509927
+        },
+        {
+            "symbol": "MUGHAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 80.46637566167715
+        },
+        {
+            "symbol": "MUGHALC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 81.9910961890357
+        },
+        {
+            "symbol": "MUREB",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 604.1444201577474
+        },
+        {
+            "symbol": "MWMP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.5621997126762612
+        },
+        {
+            "symbol": "NAGC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 255.95985119571185
+        },
+        {
+            "symbol": "NATF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.51561210473376
+        },
+        {
+            "symbol": "NATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.517469041813676
+        },
+        {
+            "symbol": "NBP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 229.33646451048608
+        },
+        {
+            "symbol": "NCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 91.49931388012911
+        },
+        {
+            "symbol": "NCML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.162724052810783
+        },
+        {
+            "symbol": "NCPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 65.48616805196805
+        },
+        {
+            "symbol": "NESTLE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 609.6549728107785
+        },
+        {
+            "symbol": "NETSOL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 117.99115215723326
+        },
+        {
+            "symbol": "NEXT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.354876356240871
+        },
+        {
+            "symbol": "NICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 88.1170881551385
+        },
+        {
+            "symbol": "NML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 375.4394014552877
+        },
+        {
+            "symbol": "NONS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 100.96950745799798
+        },
+        {
+            "symbol": "NPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 77.18378146500582
+        },
+        {
+            "symbol": "NRL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 629.2034350963838
+        },
+        {
+            "symbol": "NRSL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.177919606208313
+        },
+        {
+            "symbol": "NSRM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 96.04292872444165
+        },
+        {
+            "symbol": "OBOY",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.8085314375786934
+        },
+        {
+            "symbol": "OCTOPUS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.283294010135418
+        },
+        {
+            "symbol": "OGDC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 309.88929771087743
+        },
+        {
+            "symbol": "OLPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 62.57391382643824
+        },
+        {
+            "symbol": "OLPM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.487861692116425
+        },
+        {
+            "symbol": "OML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.49621631218487
+        },
+        {
+            "symbol": "ORM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.45855817746267
+        },
+        {
+            "symbol": "OTSU",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 60.8254514578892
+        },
+        {
+            "symbol": "PABC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 57.14971165223976
+        },
+        {
+            "symbol": "PACE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.2474835125553816
+        },
+        {
+            "symbol": "PAEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 52.089000341428054
+        },
+        {
+            "symbol": "PAKD",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 121.90211841450179
+        },
+        {
+            "symbol": "PAKL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -94.78486209386277
+        },
+        {
+            "symbol": "PAKOXY",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 117.55219162599852
+        },
+        {
+            "symbol": "PAKRI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.04364789988551
+        },
+        {
+            "symbol": "PAKT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 207.23582027039126
+        },
+        {
+            "symbol": "PASL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.963731174807304
+        },
+        {
+            "symbol": "PASM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -42.836576354630246
+        },
+        {
+            "symbol": "PCAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 174.02718504210605
+        },
+        {
+            "symbol": "PECO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -143.64912262276718
+        },
+        {
+            "symbol": "PGLC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.517465704521925
+        },
+        {
+            "symbol": "PIBTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.875972783313303
+        },
+        {
+            "symbol": "PICT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.538248737837787
+        },
+        {
+            "symbol": "PIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.8398124713133566
+        },
+        {
+            "symbol": "PIM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.868761877324008
+        },
+        {
+            "symbol": "PINL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.911872358838856
+        },
+        {
+            "symbol": "PIOC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 202.59401410185234
+        },
+        {
+            "symbol": "PKGI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.540027501053519
+        },
+        {
+            "symbol": "PKGP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 66.51400212248913
+        },
+        {
+            "symbol": "PKGS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 579.6386453783168
+        },
+        {
+            "symbol": "PMPK",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 230.64218966718337
+        },
+        {
+            "symbol": "PMRS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 411.36923834483565
+        },
+        {
+            "symbol": "PNSC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 81.69495752679664
+        },
+        {
+            "symbol": "POL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 255.90144319183747
+        },
+        {
+            "symbol": "POML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 338.62497817171084
+        },
+        {
+            "symbol": "POWER",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.702974100486381
+        },
+        {
+            "symbol": "PPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 254.71389730325032
+        },
+        {
+            "symbol": "PPP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 218.80514788402166
+        },
+        {
+            "symbol": "PPVC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.1771234120616607
+        },
+        {
+            "symbol": "PREMA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.132795555799596
+        },
+        {
+            "symbol": "PRET",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1435.3997069735412
+        },
+        {
+            "symbol": "PRL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 42.25007921168599
+        },
+        {
+            "symbol": "PRWM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 130.07790506355627
+        },
+        {
+            "symbol": "PSEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1440.7404988584672
+        },
+        {
+            "symbol": "PSO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 526.4529858604709
+        },
+        {
+            "symbol": "PSX",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.648213369907975
+        },
+        {
+            "symbol": "PSYL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.274766010254403
+        },
+        {
+            "symbol": "PTC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.30632793651168
+        },
+        {
+            "symbol": "PTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.15864576494879
+        },
+        {
+            "symbol": "QUET",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 194.3414443239621
+        },
+        {
+            "symbol": "QUICE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.610391006515584
+        },
+        {
+            "symbol": "RCML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 876.8726123173335
+        },
+        {
+            "symbol": "REDCO",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.96553892739501
+        },
+        {
+            "symbol": "REWM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 333.4995922741986
+        },
+        {
+            "symbol": "RICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.790624510158466
+        },
+        {
+            "symbol": "RMPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3107.268609106314
+        },
+        {
+            "symbol": "RPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 54.714862561251664
+        },
+        {
+            "symbol": "RUBY",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.141502041298793
+        },
+        {
+            "symbol": "RUPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 161.248944838186
+        },
+        {
+            "symbol": "SAIF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 143.14235774011706
+        },
+        {
+            "symbol": "SANSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 165.7514351113793
+        },
+        {
+            "symbol": "SAPT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1909.7716161526255
+        },
+        {
+            "symbol": "SARC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 54.33964024789246
+        },
+        {
+            "symbol": "SASML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 285.6585208261187
+        },
+        {
+            "symbol": "SAZEW",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 392.21127246189866
+        },
+        {
+            "symbol": "SBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.79301451809129
+        },
+        {
+            "symbol": "SCBPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.928343173740014
+        },
+        {
+            "symbol": "SCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 304.2596026497097
+        },
+        {
+            "symbol": "SEARL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 63.66270513650347
+        },
+        {
+            "symbol": "SEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 55.15244563706881
+        },
+        {
+            "symbol": "SEPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 151.92977429349
+        },
+        {
+            "symbol": "SERT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 61.54014419039058
+        },
+        {
+            "symbol": "SFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1823.502117903108
+        },
+        {
+            "symbol": "SGABL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 65.74616730148009
+        },
+        {
+            "symbol": "SGF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.685017832193864
+        },
+        {
+            "symbol": "SGPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.29804403983091277
+        },
+        {
+            "symbol": "SHCM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.737879741027726
+        },
+        {
+            "symbol": "SHDT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 103.94801053911632
+        },
+        {
+            "symbol": "SHEZ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 146.2202206071757
+        },
+        {
+            "symbol": "SHFA",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 217.18813849839844
+        },
+        {
+            "symbol": "SHJS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 268.0543290637378
+        },
+        {
+            "symbol": "SHNI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.255470326657372
+        },
+        {
+            "symbol": "SHSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 578.9242924046989
+        },
+        {
+            "symbol": "SIBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.632404033652827
+        },
+        {
+            "symbol": "SIEM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 857.3700671492893
+        },
+        {
+            "symbol": "SINDM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 48.49111377536516
+        },
+        {
+            "symbol": "SITC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 880.3435903154934
+        },
+        {
+            "symbol": "SKRS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.211344980482817
+        },
+        {
+            "symbol": "SLGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.65618052891896
+        },
+        {
+            "symbol": "SLYT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -154.11454383816866
+        },
+        {
+            "symbol": "SMCPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.41789283830372
+        },
+        {
+            "symbol": "SML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.9073602238596
+        },
+        {
+            "symbol": "SNAI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.734367837137423
+        },
+        {
+            "symbol": "SNBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.95134882095031
+        },
+        {
+            "symbol": "SNGP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 101.21176539875025
+        },
+        {
+            "symbol": "SPEL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.326942076467077
+        },
+        {
+            "symbol": "SPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.96356304323926
+        },
+        {
+            "symbol": "SPWL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.430726877034303
+        },
+        {
+            "symbol": "SRVI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 172.6668969970939
+        },
+        {
+            "symbol": "SSGC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.8105164185037
+        },
+        {
+            "symbol": "SSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.785470436171727
+        },
+        {
+            "symbol": "SSOM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 339.876475560089
+        },
+        {
+            "symbol": "STCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.02903747963629
+        },
+        {
+            "symbol": "STJT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 189.68818801077643
+        },
+        {
+            "symbol": "STL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 173.4459726547059
+        },
+        {
+            "symbol": "STML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 92.38170328148462
+        },
+        {
+            "symbol": "STPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.376982180560544
+        },
+        {
+            "symbol": "STYLERS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.974923673564593
+        },
+        {
+            "symbol": "SUHJ",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 177.4890550298255
+        },
+        {
+            "symbol": "SURC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 265.38973501876757
+        },
+        {
+            "symbol": "SUTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 416.2704581077479
+        },
+        {
+            "symbol": "SYM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.4058662536061335
+        },
+        {
+            "symbol": "SYS",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 96.00641913269922
+        },
+        {
+            "symbol": "SZTM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 188.805807720056
+        },
+        {
+            "symbol": "TATM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 423.12513626632864
+        },
+        {
+            "symbol": "TBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.5023944985900153
+        },
+        {
+            "symbol": "TCORP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 70.76775083623706
+        },
+        {
+            "symbol": "TELE",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.821443601405612
+        },
+        {
+            "symbol": "TGL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 130.21911936055312
+        },
+        {
+            "symbol": "THALL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 406.8374631361855
+        },
+        {
+            "symbol": "THCCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 79.07400275289321
+        },
+        {
+            "symbol": "TICL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 725.9931451677727
+        },
+        {
+            "symbol": "TOMCL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 39.97469178744588
+        },
+        {
+            "symbol": "TOWL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 522.1947586032278
+        },
+        {
+            "symbol": "TPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.809585242752178
+        },
+        {
+            "symbol": "TPLI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.501219898150255
+        },
+        {
+            "symbol": "TPLL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.4218721591281573
+        },
+        {
+            "symbol": "TPLP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.988118188514973
+        },
+        {
+            "symbol": "TPLT",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.28654370199673
+        },
+        {
+            "symbol": "TREET",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 52.2567588568368
+        },
+        {
+            "symbol": "TRG",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 68.80052280526047
+        },
+        {
+            "symbol": "TRIPF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 121.40777833786689
+        },
+        {
+            "symbol": "TRSM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.700961843705244
+        },
+        {
+            "symbol": "TSBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.51565434517377
+        },
+        {
+            "symbol": "TSMF",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.504341550521985
+        },
+        {
+            "symbol": "TSML",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 119.04040418019198
+        },
+        {
+            "symbol": "TSPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.78062249624199
+        },
+        {
+            "symbol": "UBDL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.972726730733743
+        },
+        {
+            "symbol": "UBL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 304.0539959883193
+        },
+        {
+            "symbol": "UCAPM",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.361289851829753
+        },
+        {
+            "symbol": "UDLI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.637263936349807
+        },
+        {
+            "symbol": "UDPL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.21499882105628
+        },
+        {
+            "symbol": "UNIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.071131109861835
+        },
+        {
+            "symbol": "UNITY",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.550651536739926
+        },
+        {
+            "symbol": "UPFL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1992.41437994767
+        },
+        {
+            "symbol": "UVIC",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.687410948404533
+        },
+        {
+            "symbol": "WAFI",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 108.64316537325679
+        },
+        {
+            "symbol": "WAHN",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 278.92142965284546
+        },
+        {
+            "symbol": "WASL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.5802000692638964
+        },
+        {
+            "symbol": "WAVES",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.254378928136422
+        },
+        {
+            "symbol": "WAVESAPP",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.94831438966362
+        },
+        {
+            "symbol": "WTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.08863542593567837
+        },
+        {
+            "symbol": "YOUW",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.275830638066689
+        },
+        {
+            "symbol": "ZAHID",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 89.0762158853558
+        },
+        {
+            "symbol": "ZAL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.535189053590042
+        },
+        {
+            "symbol": "ZIL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 227.32278522932143
+        },
+        {
+            "symbol": "ZTL",
+            "name": "bval",
+            "period": "TTM",
+            "period_end": null,
+            "value": 42.637632396317066
+        }
+    ]
+}

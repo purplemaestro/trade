@@ -1,0 +1,4108 @@
+{
+    "status": "ok",
+    "message": "",
+    "data": [
+        {
+            "symbol": "ACIETF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.8047
+        },
+        {
+            "symbol": "AKDCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.7052
+        },
+        {
+            "symbol": "AKZO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.5049
+        },
+        {
+            "symbol": "AYTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 170.712
+        },
+        {
+            "symbol": "BPBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.4786
+        },
+        {
+            "symbol": "CECL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0
+        },
+        {
+            "symbol": "CPAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.522
+        },
+        {
+            "symbol": "CSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.6425
+        },
+        {
+            "symbol": "DMIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.4655
+        },
+        {
+            "symbol": "EFOODS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.6362
+        },
+        {
+            "symbol": "EWLA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.9437
+        },
+        {
+            "symbol": "GASF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -32.6013
+        },
+        {
+            "symbol": "GLAT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.3781
+        },
+        {
+            "symbol": "HAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.6658
+        },
+        {
+            "symbol": "ICCT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.0228
+        },
+        {
+            "symbol": "IFSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.104
+        },
+        {
+            "symbol": "IGIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -17.6896
+        },
+        {
+            "symbol": "ILTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.7179
+        },
+        {
+            "symbol": "IMSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.9054
+        },
+        {
+            "symbol": "ISTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.8875
+        },
+        {
+            "symbol": "LINDE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0
+        },
+        {
+            "symbol": "MOIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.0469
+        },
+        {
+            "symbol": "NPSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 57.3201
+        },
+        {
+            "symbol": "OLSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.1423
+        },
+        {
+            "symbol": "PGCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0
+        },
+        {
+            "symbol": "PGF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.1334
+        },
+        {
+            "symbol": "PIF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.4985
+        },
+        {
+            "symbol": "RAVT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1904.885
+        },
+        {
+            "symbol": "SALT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.4486
+        },
+        {
+            "symbol": "SERF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.6463
+        },
+        {
+            "symbol": "SFLL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.6973
+        },
+        {
+            "symbol": "SING",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.591
+        },
+        {
+            "symbol": "SRSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.8962
+        },
+        {
+            "symbol": "ADOS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 101.7087656425962
+        },
+        {
+            "symbol": "AEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.176628939783265
+        },
+        {
+            "symbol": "AWWAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.426587546761966
+        },
+        {
+            "symbol": "BCML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -32.82433371529338
+        },
+        {
+            "symbol": "BIPLS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.173243001786778
+        },
+        {
+            "symbol": "BRR",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.120575762687302
+        },
+        {
+            "symbol": "BYCO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.757129138486306
+        },
+        {
+            "symbol": "DATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.955905151352834
+        },
+        {
+            "symbol": "DKL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 163.37866386187247
+        },
+        {
+            "symbol": "FDIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.6527599510486746
+        },
+        {
+            "symbol": "GAIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 333.6724964322707
+        },
+        {
+            "symbol": "GEMUNSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.063608093882147
+        },
+        {
+            "symbol": "GHNL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.8448790688489558
+        },
+        {
+            "symbol": "GSKCH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.3753520894746725
+        },
+        {
+            "symbol": "GTECH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.21135887314366
+        },
+        {
+            "symbol": "HACC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -35.70467350631337
+        },
+        {
+            "symbol": "HMM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.283318893294888
+        },
+        {
+            "symbol": "HSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.9096928089728327
+        },
+        {
+            "symbol": "ICI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.579327490078672
+        },
+        {
+            "symbol": "IGIIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -11.783514729273852
+        },
+        {
+            "symbol": "JOPP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.041314254489742
+        },
+        {
+            "symbol": "JPGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.129759129992948
+        },
+        {
+            "symbol": "KASBM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.284942696167867
+        },
+        {
+            "symbol": "KHSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 230.27498232977686
+        },
+        {
+            "symbol": "MCBAH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.502953983517084
+        },
+        {
+            "symbol": "NIB",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.0974278630957475
+        },
+        {
+            "symbol": "ORIXM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.411720624911286
+        },
+        {
+            "symbol": "PAKMI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.505163684555424
+        },
+        {
+            "symbol": "PGIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -11.307995719271492
+        },
+        {
+            "symbol": "SAPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.985564016956297
+        },
+        {
+            "symbol": "SMBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 32.09188132509013
+        },
+        {
+            "symbol": "SMTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.8529920852735313
+        },
+        {
+            "symbol": "TDIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.869461348024127
+        },
+        {
+            "symbol": "TRPOL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.7524063245989216
+        },
+        {
+            "symbol": "WHALE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.217318121401765
+        },
+        {
+            "symbol": "WYETH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.754857597897039
+        },
+        {
+            "symbol": "PSMC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -102.56272075979003
+        },
+        {
+            "symbol": "LSEPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.8102106547702402
+        },
+        {
+            "symbol": "MODAM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.1999047917333957
+        },
+        {
+            "symbol": "PIAA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.594616011166615
+        },
+        {
+            "symbol": "ARM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.5221957473593175
+        },
+        {
+            "symbol": "FUDLM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.7338169276372492
+        },
+        {
+            "symbol": "META",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 135.20869185623815
+        },
+        {
+            "symbol": "CLOUD",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.524777763264675
+        },
+        {
+            "symbol": "EFGH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.3041583952809992
+        },
+        {
+            "symbol": "LMSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.170033644331529
+        },
+        {
+            "symbol": "DSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -307.6077270565858
+        },
+        {
+            "symbol": "FFBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 50.8073389248305
+        },
+        {
+            "symbol": "DAWH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.426366204804953
+        },
+        {
+            "symbol": "ENGRO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.063430875159113
+        },
+        {
+            "symbol": "HCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 99.5419668127011
+        },
+        {
+            "symbol": "SPLC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -18.67255856282731
+        },
+        {
+            "symbol": "SHEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.01156809256028
+        },
+        {
+            "symbol": "SILK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 34.124808136365544
+        },
+        {
+            "symbol": "HIFA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.4984646297835242
+        },
+        {
+            "symbol": "DMTX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.652155994770106
+        },
+        {
+            "symbol": "PMI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.54028170981192
+        },
+        {
+            "symbol": "ZHCM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.139608385897695
+        },
+        {
+            "symbol": "AAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.994591502021285
+        },
+        {
+            "symbol": "AASM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 380.46732216979154
+        },
+        {
+            "symbol": "APOT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -26.935498945694974
+        },
+        {
+            "symbol": "DBSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.250619134225454
+        },
+        {
+            "symbol": "DCTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 61.67714406230566
+        },
+        {
+            "symbol": "DKTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -139.57956435281233
+        },
+        {
+            "symbol": "DSFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.2515750263727973
+        },
+        {
+            "symbol": "FNBM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.5462204429981818
+        },
+        {
+            "symbol": "GLOT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -12.334049468407427
+        },
+        {
+            "symbol": "GUTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.948375699195738
+        },
+        {
+            "symbol": "HADC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.5282165039929043
+        },
+        {
+            "symbol": "HATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.070077847385466
+        },
+        {
+            "symbol": "HMIM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 602.5015668658828
+        },
+        {
+            "symbol": "HSPI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.8518657045267437
+        },
+        {
+            "symbol": "ITANZ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.139608385897695
+        },
+        {
+            "symbol": "MUBT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.5522789915885431
+        },
+        {
+            "symbol": "PHDL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.84773911534475
+        },
+        {
+            "symbol": "PRIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -36.989050463937
+        },
+        {
+            "symbol": "SANE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.872505164701046
+        },
+        {
+            "symbol": "SHCI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.60692873319018
+        },
+        {
+            "symbol": "SLCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.743666160275513
+        },
+        {
+            "symbol": "SLL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.538463577710022
+        },
+        {
+            "symbol": "SPCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.633916859635292
+        },
+        {
+            "symbol": "TRIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.9281648612512576
+        },
+        {
+            "symbol": "ZELP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.548453005494
+        },
+        {
+            "symbol": "786",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.032925663581452
+        },
+        {
+            "symbol": "AABS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.635758110909771
+        },
+        {
+            "symbol": "AATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.568749472361493
+        },
+        {
+            "symbol": "ABL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.939078609590334
+        },
+        {
+            "symbol": "ABOT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.106842618118876
+        },
+        {
+            "symbol": "ACPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.69343722083035
+        },
+        {
+            "symbol": "ADAMS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.8760670193405504
+        },
+        {
+            "symbol": "ADMM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.7886297252634025
+        },
+        {
+            "symbol": "AGHA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -31.398257386696564
+        },
+        {
+            "symbol": "AGIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.418537716644657
+        },
+        {
+            "symbol": "AGIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.30164730275307
+        },
+        {
+            "symbol": "AGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.22012783570002
+        },
+        {
+            "symbol": "AGP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.04704416379851
+        },
+        {
+            "symbol": "AGSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.31026115119956
+        },
+        {
+            "symbol": "AGTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.771188893371452
+        },
+        {
+            "symbol": "AHCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 48.15878863345937
+        },
+        {
+            "symbol": "AHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 50.85110469050127
+        },
+        {
+            "symbol": "AHTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.715497159369123
+        },
+        {
+            "symbol": "AICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.799183518486902
+        },
+        {
+            "symbol": "AIRLINK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.502133862965387
+        },
+        {
+            "symbol": "AKBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.310467762945475
+        },
+        {
+            "symbol": "AKDHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.321700410388688
+        },
+        {
+            "symbol": "AKDSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.204578902372546
+        },
+        {
+            "symbol": "AKGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.055678803755487
+        },
+        {
+            "symbol": "ALAC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -46.53466358114563
+        },
+        {
+            "symbol": "ALIFE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.838865826687734
+        },
+        {
+            "symbol": "ALNRS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.458614190500558
+        },
+        {
+            "symbol": "ALTN",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 148.54618896976456
+        },
+        {
+            "symbol": "AMBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.086454579128077
+        },
+        {
+            "symbol": "AMTEX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.40249527674601554
+        },
+        {
+            "symbol": "ANL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.964555760743794
+        },
+        {
+            "symbol": "ANSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 49.91800319378036
+        },
+        {
+            "symbol": "ANTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -13.29664740720087
+        },
+        {
+            "symbol": "APL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.34650509313613
+        },
+        {
+            "symbol": "ARCTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.470432445056172
+        },
+        {
+            "symbol": "ARPAK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -47.43230289106563
+        },
+        {
+            "symbol": "ARPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.395311158805143
+        },
+        {
+            "symbol": "ARUJ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 275.90284615990487
+        },
+        {
+            "symbol": "ASC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -93.24356462015562
+        },
+        {
+            "symbol": "ASHT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.6055607618358448
+        },
+        {
+            "symbol": "ASIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.578731621784062
+        },
+        {
+            "symbol": "ASL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.55726906425086
+        },
+        {
+            "symbol": "ASTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -33.52886329209757
+        },
+        {
+            "symbol": "ASTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.08183628527283
+        },
+        {
+            "symbol": "ATBA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.1543008003725959
+        },
+        {
+            "symbol": "ATIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.059130891387397
+        },
+        {
+            "symbol": "ATLH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 46.11340529299232
+        },
+        {
+            "symbol": "ATRL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.537497470124038
+        },
+        {
+            "symbol": "AVN",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.471717607388424
+        },
+        {
+            "symbol": "AWTX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -20.263919778813445
+        },
+        {
+            "symbol": "BAFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.63225275681569
+        },
+        {
+            "symbol": "BAFS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.39469127703718
+        },
+        {
+            "symbol": "BAHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.31186167579422
+        },
+        {
+            "symbol": "BAPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.8242500387683813
+        },
+        {
+            "symbol": "BATA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.902372237917373
+        },
+        {
+            "symbol": "BBFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.543386053720315
+        },
+        {
+            "symbol": "BCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.9576057530136834
+        },
+        {
+            "symbol": "BECO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.042737846719029735
+        },
+        {
+            "symbol": "BELA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -33.582338193024846
+        },
+        {
+            "symbol": "BERG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.325803036438828
+        },
+        {
+            "symbol": "BFAGRO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 28.772130240881815
+        },
+        {
+            "symbol": "BFBIO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.859568873478217
+        },
+        {
+            "symbol": "BFMOD",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.366574944489853
+        },
+        {
+            "symbol": "BGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 382.82269488324175
+        },
+        {
+            "symbol": "BHAT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.8392301209262645
+        },
+        {
+            "symbol": "BIFO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.135706758085323
+        },
+        {
+            "symbol": "BILF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 935.8320367021786
+        },
+        {
+            "symbol": "BIPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.93844996899187
+        },
+        {
+            "symbol": "BML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.120969514166474
+        },
+        {
+            "symbol": "BNL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.497965462154628
+        },
+        {
+            "symbol": "BNWM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.2435583606527123
+        },
+        {
+            "symbol": "BOK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.418596284147554
+        },
+        {
+            "symbol": "BOP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.453966961866268
+        },
+        {
+            "symbol": "BPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -26.333166461128954
+        },
+        {
+            "symbol": "BRRG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.22463499613448
+        },
+        {
+            "symbol": "BTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.2170230346771802
+        },
+        {
+            "symbol": "BUXL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.161825328348193
+        },
+        {
+            "symbol": "BWCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.610054812956275
+        },
+        {
+            "symbol": "BWHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.64724360551681
+        },
+        {
+            "symbol": "CASH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.820337949089949
+        },
+        {
+            "symbol": "CCM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.10518957953671196
+        },
+        {
+            "symbol": "CENI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.25200908190515
+        },
+        {
+            "symbol": "CEPB",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.5118638740843715
+        },
+        {
+            "symbol": "CFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -22.35368400889105
+        },
+        {
+            "symbol": "CHAS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -20.80296850523978
+        },
+        {
+            "symbol": "CHBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.033255637321162
+        },
+        {
+            "symbol": "CHCC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.064088608382757
+        },
+        {
+            "symbol": "CJPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.672290684512066
+        },
+        {
+            "symbol": "CLOV",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 51.63179353639825
+        },
+        {
+            "symbol": "CLVL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.476246544684591
+        },
+        {
+            "symbol": "CNERGY",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.6243286151942764
+        },
+        {
+            "symbol": "COLG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 49.43308506185345
+        },
+        {
+            "symbol": "CPHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.016576129685664
+        },
+        {
+            "symbol": "CPPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.054217139498097
+        },
+        {
+            "symbol": "CRTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.5544163530423427
+        },
+        {
+            "symbol": "CSAP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.062922014827674
+        },
+        {
+            "symbol": "CSIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.9916554500012907
+        },
+        {
+            "symbol": "CTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -72.53789591680032
+        },
+        {
+            "symbol": "CWSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.12328783050139
+        },
+        {
+            "symbol": "CYAN",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.468662044072186
+        },
+        {
+            "symbol": "DAAG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -25.650261064123008
+        },
+        {
+            "symbol": "DADX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -161.49070047925858
+        },
+        {
+            "symbol": "DBCI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.6433538752567742
+        },
+        {
+            "symbol": "DCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.632365039949796
+        },
+        {
+            "symbol": "DCR",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.432746856395086
+        },
+        {
+            "symbol": "DEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.049794626402216
+        },
+        {
+            "symbol": "DFML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.374621170862786
+        },
+        {
+            "symbol": "DFSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -22.743116782854944
+        },
+        {
+            "symbol": "DGKC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.91458746705008
+        },
+        {
+            "symbol": "DIIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -87.01621801864755
+        },
+        {
+            "symbol": "DINT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.626740706880788
+        },
+        {
+            "symbol": "DLL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.590537596053727
+        },
+        {
+            "symbol": "DMC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.652155994770106
+        },
+        {
+            "symbol": "DMTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.425269469675368
+        },
+        {
+            "symbol": "DNCC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.306078187073049
+        },
+        {
+            "symbol": "DOL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.16022651005429
+        },
+        {
+            "symbol": "DSIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.6099726306774061
+        },
+        {
+            "symbol": "DSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -111.90349793180717
+        },
+        {
+            "symbol": "DWAE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.3297008314155856
+        },
+        {
+            "symbol": "DWSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 64.46156150518964
+        },
+        {
+            "symbol": "DWTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.460884512435883
+        },
+        {
+            "symbol": "DYNO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.785126052015954
+        },
+        {
+            "symbol": "ECOP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.688998250371185
+        },
+        {
+            "symbol": "EFERT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 58.299955291783
+        },
+        {
+            "symbol": "EFUG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.967462825278059
+        },
+        {
+            "symbol": "EFUL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.013014193372456
+        },
+        {
+            "symbol": "ELCM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.422122291945172
+        },
+        {
+            "symbol": "ELSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.7865272446811882
+        },
+        {
+            "symbol": "EMCO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.6833151899658214
+        },
+        {
+            "symbol": "ENGROH",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.40823454656376
+        },
+        {
+            "symbol": "EPCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.712285826468522
+        },
+        {
+            "symbol": "EPQL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.105494565174718
+        },
+        {
+            "symbol": "ESBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -12.931849891583544
+        },
+        {
+            "symbol": "EWIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.939651357880628
+        },
+        {
+            "symbol": "EXIDE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.7894627332779915
+        },
+        {
+            "symbol": "FABL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.917490053934397
+        },
+        {
+            "symbol": "FANM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.29240016728625
+        },
+        {
+            "symbol": "FASM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.210906499748851
+        },
+        {
+            "symbol": "FATIMA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.206777559050998
+        },
+        {
+            "symbol": "FCCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.813282120245384
+        },
+        {
+            "symbol": "FCEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.67590713824084
+        },
+        {
+            "symbol": "FCEPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.507467801689852
+        },
+        {
+            "symbol": "FCIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.426895349864548
+        },
+        {
+            "symbol": "FCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.851409434870925
+        },
+        {
+            "symbol": "FCSC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.936017720399148
+        },
+        {
+            "symbol": "FDPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.9537348227834591
+        },
+        {
+            "symbol": "FECM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.7702187395954767
+        },
+        {
+            "symbol": "FECTC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.85513894244317
+        },
+        {
+            "symbol": "FEM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.1616480061152417
+        },
+        {
+            "symbol": "FEROZ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.724652721866815
+        },
+        {
+            "symbol": "FFC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 59.08666750610687
+        },
+        {
+            "symbol": "FFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.901938337267035
+        },
+        {
+            "symbol": "FFLM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.356279113727309
+        },
+        {
+            "symbol": "FHAM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.585851571644179
+        },
+        {
+            "symbol": "FIBLM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.574295421759439
+        },
+        {
+            "symbol": "FIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -120.95756315031248
+        },
+        {
+            "symbol": "FIMM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.59667098140781
+        },
+        {
+            "symbol": "FLYNG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.597763327988361
+        },
+        {
+            "symbol": "FML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.2933479139794413
+        },
+        {
+            "symbol": "FNEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.795770379403251
+        },
+        {
+            "symbol": "FPJM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -146.88566135350126
+        },
+        {
+            "symbol": "FPRM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.011744808900806
+        },
+        {
+            "symbol": "FRCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.4319930904372928
+        },
+        {
+            "symbol": "FRSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -31.631038553598927
+        },
+        {
+            "symbol": "FSWL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.245797144282158
+        },
+        {
+            "symbol": "FTMM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.403069463605817
+        },
+        {
+            "symbol": "FTSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.4479189340914057
+        },
+        {
+            "symbol": "FZCM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.24988249276866017
+        },
+        {
+            "symbol": "GADT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.00340179498008
+        },
+        {
+            "symbol": "GAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.461500823865062
+        },
+        {
+            "symbol": "GAMON",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.302978162421582
+        },
+        {
+            "symbol": "GATI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.933569615687082
+        },
+        {
+            "symbol": "GATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.579088185974541
+        },
+        {
+            "symbol": "GCIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.087364127173707
+        },
+        {
+            "symbol": "GEMBLUEX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.850289226181248
+        },
+        {
+            "symbol": "GEMMEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.6194686647818777
+        },
+        {
+            "symbol": "GEMPAPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.149123420100513
+        },
+        {
+            "symbol": "GEMSPNL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.981539978225046
+        },
+        {
+            "symbol": "GFIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.199471058577561
+        },
+        {
+            "symbol": "GGGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.574876608758233
+        },
+        {
+            "symbol": "GGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.6908286753216295
+        },
+        {
+            "symbol": "GHGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.803231976252405
+        },
+        {
+            "symbol": "GHNI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 38.463487858712234
+        },
+        {
+            "symbol": "GIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.3371422222001692
+        },
+        {
+            "symbol": "GLAXO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 30.99390604606616
+        },
+        {
+            "symbol": "GLPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.2583048180650462
+        },
+        {
+            "symbol": "GOC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.719953076176008
+        },
+        {
+            "symbol": "GRR",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 47.304177256252814
+        },
+        {
+            "symbol": "GRYL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.241911712241214
+        },
+        {
+            "symbol": "GSPM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.2701907583017598
+        },
+        {
+            "symbol": "GTYR",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.278133111301093
+        },
+        {
+            "symbol": "GUSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.29174900431638473
+        },
+        {
+            "symbol": "GVGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.978056474056235
+        },
+        {
+            "symbol": "GWLC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.711233374922942
+        },
+        {
+            "symbol": "HABSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.114468571599462
+        },
+        {
+            "symbol": "HAEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.901307387968417
+        },
+        {
+            "symbol": "HAFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.148836314739123
+        },
+        {
+            "symbol": "HALEON",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 42.99186873149394
+        },
+        {
+            "symbol": "HASCOL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.958802790063507
+        },
+        {
+            "symbol": "HBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.217564875524094
+        },
+        {
+            "symbol": "HCAR",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.421317269109649
+        },
+        {
+            "symbol": "HGFA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.8522388901197115
+        },
+        {
+            "symbol": "HICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.827688030627096
+        },
+        {
+            "symbol": "HINO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.898517246548646
+        },
+        {
+            "symbol": "HINOON",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 31.49702656367102
+        },
+        {
+            "symbol": "HIRAT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.83093866386454
+        },
+        {
+            "symbol": "HMB",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.580057339692377
+        },
+        {
+            "symbol": "HPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.46155320032618
+        },
+        {
+            "symbol": "HRPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -17.957818544128262
+        },
+        {
+            "symbol": "HTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -8.729490533390669
+        },
+        {
+            "symbol": "HUBC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.02142747844413
+        },
+        {
+            "symbol": "HUMNL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.907389675702206
+        },
+        {
+            "symbol": "HUSI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -57.038853303904446
+        },
+        {
+            "symbol": "HWQS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -66.5509294968997
+        },
+        {
+            "symbol": "IBFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.556875794640754
+        },
+        {
+            "symbol": "IBLHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.260328325216086
+        },
+        {
+            "symbol": "ICCI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.782413192490049
+        },
+        {
+            "symbol": "ICIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.82244589947722
+        },
+        {
+            "symbol": "ICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.155069351161488
+        },
+        {
+            "symbol": "IDRT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -14.065381820036713
+        },
+        {
+            "symbol": "IDSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -124.75413457431925
+        },
+        {
+            "symbol": "IDYM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.2476803324358112
+        },
+        {
+            "symbol": "IGIHL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.473428017665936
+        },
+        {
+            "symbol": "IGIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.03205533687519
+        },
+        {
+            "symbol": "ILP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.736152676143208
+        },
+        {
+            "symbol": "IMAGE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.854995621948218
+        },
+        {
+            "symbol": "IML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.8038698809573459
+        },
+        {
+            "symbol": "IMS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.149367372831211
+        },
+        {
+            "symbol": "INDU",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.90106589978111
+        },
+        {
+            "symbol": "INIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.617476335311946
+        },
+        {
+            "symbol": "INKL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.633605035688092
+        },
+        {
+            "symbol": "IPAK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.3665890598254595
+        },
+        {
+            "symbol": "ISL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.2095674093616635
+        },
+        {
+            "symbol": "ITTEFAQ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -21.77606685651025
+        },
+        {
+            "symbol": "JATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -18.258963965416694
+        },
+        {
+            "symbol": "JDMT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -14.292230638418896
+        },
+        {
+            "symbol": "JDWS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.24251391426976
+        },
+        {
+            "symbol": "JGICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.029787026834406
+        },
+        {
+            "symbol": "JKSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.6955225048439546
+        },
+        {
+            "symbol": "JLICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.14338990690242
+        },
+        {
+            "symbol": "JSBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.60923187748736
+        },
+        {
+            "symbol": "JSCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.239532765301465
+        },
+        {
+            "symbol": "JSGCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 17.02968141857431
+        },
+        {
+            "symbol": "JSIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.78247267242651
+        },
+        {
+            "symbol": "JSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.8541505637814364
+        },
+        {
+            "symbol": "JUBS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 41.30938645594359
+        },
+        {
+            "symbol": "JVDC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.165569989419987
+        },
+        {
+            "symbol": "KAPCO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.441593794257724
+        },
+        {
+            "symbol": "KCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -48.862730078382604
+        },
+        {
+            "symbol": "KEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.1035070271125798
+        },
+        {
+            "symbol": "KHTC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.797999276262123
+        },
+        {
+            "symbol": "KHYT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.46570751705378116
+        },
+        {
+            "symbol": "KML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.3000635952304505
+        },
+        {
+            "symbol": "KOHC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 24.137435208870986
+        },
+        {
+            "symbol": "KOHE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.836058774351166
+        },
+        {
+            "symbol": "KOHP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -14.889041832812348
+        },
+        {
+            "symbol": "KOHTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.815239731056716
+        },
+        {
+            "symbol": "KOIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.122878950398228
+        },
+        {
+            "symbol": "KOSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -116.94297276396432
+        },
+        {
+            "symbol": "KPUS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.25150561387888615
+        },
+        {
+            "symbol": "KSBP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.183781431040153
+        },
+        {
+            "symbol": "KSTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.009623518894402
+        },
+        {
+            "symbol": "KTML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.597911374428389
+        },
+        {
+            "symbol": "LCI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.75569199027843
+        },
+        {
+            "symbol": "LEUL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -17.997277187573953
+        },
+        {
+            "symbol": "LIVEN",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.067563745801332
+        },
+        {
+            "symbol": "LOADS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.034235676985496
+        },
+        {
+            "symbol": "LOTCHEM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.258373059858105
+        },
+        {
+            "symbol": "LPGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.202445332706325
+        },
+        {
+            "symbol": "LPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -23.21143170490199
+        },
+        {
+            "symbol": "LSECL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.040322919135044
+        },
+        {
+            "symbol": "LSEFSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.09643568344035978
+        },
+        {
+            "symbol": "LSEVL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.68457110490593
+        },
+        {
+            "symbol": "LUCK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.81194176126028
+        },
+        {
+            "symbol": "MACFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.814648645460962
+        },
+        {
+            "symbol": "MACTER",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.2718529433511
+        },
+        {
+            "symbol": "MARI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.977707971265144
+        },
+        {
+            "symbol": "MCB",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 18.39421045818366
+        },
+        {
+            "symbol": "MCBIM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 53.60262005991376
+        },
+        {
+            "symbol": "MDTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.117503186626309
+        },
+        {
+            "symbol": "MEBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.15530995778815
+        },
+        {
+            "symbol": "MEHT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.4096868059804777
+        },
+        {
+            "symbol": "MERIT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -22.58155901403958
+        },
+        {
+            "symbol": "MFFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 61.93614950484139
+        },
+        {
+            "symbol": "MFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.024455957892265
+        },
+        {
+            "symbol": "MIRKS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -40.458048952171296
+        },
+        {
+            "symbol": "MLCF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.839902699061057
+        },
+        {
+            "symbol": "MQTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -53.34688817645261
+        },
+        {
+            "symbol": "MRNS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.6881236638448742
+        },
+        {
+            "symbol": "MSCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.315759007277298
+        },
+        {
+            "symbol": "MSOT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -16.000206989692938
+        },
+        {
+            "symbol": "MTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 94.06308098224633
+        },
+        {
+            "symbol": "MUGHAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.5169969775932293
+        },
+        {
+            "symbol": "MUGHALC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.866273470342881
+        },
+        {
+            "symbol": "MUREB",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.518511810339994
+        },
+        {
+            "symbol": "MWMP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 176.8012063067612
+        },
+        {
+            "symbol": "NAGC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.0548529339218626
+        },
+        {
+            "symbol": "NATF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 37.381271224070375
+        },
+        {
+            "symbol": "NATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -54.2238971578809
+        },
+        {
+            "symbol": "NBP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.341373959088028
+        },
+        {
+            "symbol": "NCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.5956553776022235
+        },
+        {
+            "symbol": "NCML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.168935088125663
+        },
+        {
+            "symbol": "NCPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -14.033497871958343
+        },
+        {
+            "symbol": "NESTLE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 54.844135603200726
+        },
+        {
+            "symbol": "NETSOL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.077026779224568
+        },
+        {
+            "symbol": "NEXT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.798210816633681
+        },
+        {
+            "symbol": "NICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.59759392871131
+        },
+        {
+            "symbol": "NML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.554663131710883
+        },
+        {
+            "symbol": "NONS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -38.75427441921273
+        },
+        {
+            "symbol": "NPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.7337349375096984
+        },
+        {
+            "symbol": "NRL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -29.546882555007286
+        },
+        {
+            "symbol": "NRSL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.320729114946293
+        },
+        {
+            "symbol": "NSRM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.4554466240700785
+        },
+        {
+            "symbol": "OBOY",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -291.94958352888756
+        },
+        {
+            "symbol": "OCTOPUS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.7809664298850811
+        },
+        {
+            "symbol": "OGDC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.746487307494231
+        },
+        {
+            "symbol": "OLPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.170789187628918
+        },
+        {
+            "symbol": "OLPM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.47942517238021
+        },
+        {
+            "symbol": "OML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 25.239399734564916
+        },
+        {
+            "symbol": "ORM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.646511699417342
+        },
+        {
+            "symbol": "OTSU",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.764871357486622
+        },
+        {
+            "symbol": "PABC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 35.048295819730534
+        },
+        {
+            "symbol": "PACE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -33.87238136074265
+        },
+        {
+            "symbol": "PAEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.199216678031552
+        },
+        {
+            "symbol": "PAKD",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.582260725064959
+        },
+        {
+            "symbol": "PAKL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.08440166312715443
+        },
+        {
+            "symbol": "PAKOXY",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.709248371593764
+        },
+        {
+            "symbol": "PAKRI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.492338780344486
+        },
+        {
+            "symbol": "PAKT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 58.638511354574995
+        },
+        {
+            "symbol": "PASL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.5183563334797332
+        },
+        {
+            "symbol": "PASM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.3887727731462105
+        },
+        {
+            "symbol": "PCAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.9593077649069324
+        },
+        {
+            "symbol": "PECO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.978505147387157
+        },
+        {
+            "symbol": "PGLC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.505796586862303
+        },
+        {
+            "symbol": "PIBTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.417581873418562
+        },
+        {
+            "symbol": "PICT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 27.920893412420117
+        },
+        {
+            "symbol": "PIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 51.20190693614449
+        },
+        {
+            "symbol": "PIM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.842142687911593
+        },
+        {
+            "symbol": "PINL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.735480181628816
+        },
+        {
+            "symbol": "PIOC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.597549041703742
+        },
+        {
+            "symbol": "PKGI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.358729863524191
+        },
+        {
+            "symbol": "PKGP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.25558528215898924
+        },
+        {
+            "symbol": "PKGS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.8202445131594365
+        },
+        {
+            "symbol": "PMPK",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -13.921997552284223
+        },
+        {
+            "symbol": "PMRS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -44.451549351562164
+        },
+        {
+            "symbol": "PNSC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 41.27549731443285
+        },
+        {
+            "symbol": "POL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 33.29016004655237
+        },
+        {
+            "symbol": "POML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.420450442247333
+        },
+        {
+            "symbol": "POWER",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.4637557828536623
+        },
+        {
+            "symbol": "PPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.242308471234557
+        },
+        {
+            "symbol": "PPP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.992522867016736
+        },
+        {
+            "symbol": "PPVC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 22.047441010496346
+        },
+        {
+            "symbol": "PREMA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.572284888701928
+        },
+        {
+            "symbol": "PRET",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.1582838459204905
+        },
+        {
+            "symbol": "PRL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -17.514760062161557
+        },
+        {
+            "symbol": "PRWM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.7900364382338374
+        },
+        {
+            "symbol": "PSEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.4610542298684885
+        },
+        {
+            "symbol": "PSO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.460394602416542
+        },
+        {
+            "symbol": "PSX",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 12.970865128870908
+        },
+        {
+            "symbol": "PSYL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.068578038611706
+        },
+        {
+            "symbol": "PTC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.32959393225355543
+        },
+        {
+            "symbol": "PTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.567754333797127
+        },
+        {
+            "symbol": "QUET",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -40.34651500752078
+        },
+        {
+            "symbol": "QUICE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -2.581125978942449
+        },
+        {
+            "symbol": "RCML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.5757868437062665
+        },
+        {
+            "symbol": "REDCO",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.996435685530876
+        },
+        {
+            "symbol": "REWM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.500752682522913
+        },
+        {
+            "symbol": "RICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.10547646587467
+        },
+        {
+            "symbol": "RMPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.5879814052385
+        },
+        {
+            "symbol": "RPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.7911038319851742
+        },
+        {
+            "symbol": "RUBY",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.946162150698564
+        },
+        {
+            "symbol": "RUPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -27.34281458042687
+        },
+        {
+            "symbol": "SAIF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.269496906491279
+        },
+        {
+            "symbol": "SANSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.687742217603624
+        },
+        {
+            "symbol": "SAPT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.538313296695375
+        },
+        {
+            "symbol": "SARC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.986106579523709
+        },
+        {
+            "symbol": "SASML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.253244604658287
+        },
+        {
+            "symbol": "SAZEW",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 68.9067395497294
+        },
+        {
+            "symbol": "SBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.2589210207873711
+        },
+        {
+            "symbol": "SCBPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.74596894871424
+        },
+        {
+            "symbol": "SCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.0681667798474328
+        },
+        {
+            "symbol": "SEARL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.80695516354219
+        },
+        {
+            "symbol": "SEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.786732427737739
+        },
+        {
+            "symbol": "SEPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.928873961410257
+        },
+        {
+            "symbol": "SERT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -10.968450088639873
+        },
+        {
+            "symbol": "SFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 36.282930165214935
+        },
+        {
+            "symbol": "SGABL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.699660556471167
+        },
+        {
+            "symbol": "SGF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 23.2792581403777
+        },
+        {
+            "symbol": "SGPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -109.37980849573347
+        },
+        {
+            "symbol": "SHCM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -9.970499359022766
+        },
+        {
+            "symbol": "SHDT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.726516017162426
+        },
+        {
+            "symbol": "SHEZ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 11.537391976258657
+        },
+        {
+            "symbol": "SHFA",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 16.962252291817336
+        },
+        {
+            "symbol": "SHJS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -0.1977211119295054
+        },
+        {
+            "symbol": "SHNI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.027754990028523
+        },
+        {
+            "symbol": "SHSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.439137079098738
+        },
+        {
+            "symbol": "SIBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.694497400578576
+        },
+        {
+            "symbol": "SIEM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.958617322954687
+        },
+        {
+            "symbol": "SINDM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.218183811382955
+        },
+        {
+            "symbol": "SITC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.978737902128919
+        },
+        {
+            "symbol": "SKRS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.369655844986615
+        },
+        {
+            "symbol": "SLGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.701223082380107
+        },
+        {
+            "symbol": "SLYT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.1607305300768624
+        },
+        {
+            "symbol": "SMCPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.65733925578499
+        },
+        {
+            "symbol": "SML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -55.79391409768437
+        },
+        {
+            "symbol": "SNAI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.119441815898025
+        },
+        {
+            "symbol": "SNBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.731511886717433
+        },
+        {
+            "symbol": "SNGP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 29.561780571776737
+        },
+        {
+            "symbol": "SPEL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 20.50981593962472
+        },
+        {
+            "symbol": "SPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -13.977695667848373
+        },
+        {
+            "symbol": "SPWL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -4.396651571401511
+        },
+        {
+            "symbol": "SRVI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -3.0926599671793915
+        },
+        {
+            "symbol": "SSGC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 54.82590728473977
+        },
+        {
+            "symbol": "SSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -529.656758336137
+        },
+        {
+            "symbol": "SSOM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.774139250224989
+        },
+        {
+            "symbol": "STCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.253579484856207
+        },
+        {
+            "symbol": "STJT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.046765547335174
+        },
+        {
+            "symbol": "STL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 69.37030486117517
+        },
+        {
+            "symbol": "STML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -16.669967594207055
+        },
+        {
+            "symbol": "STPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -208.36273998337447
+        },
+        {
+            "symbol": "STYLERS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 9.675652956741443
+        },
+        {
+            "symbol": "SUHJ",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -7.121565889161986
+        },
+        {
+            "symbol": "SURC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 8.49316948841523
+        },
+        {
+            "symbol": "SUTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.3590432154707885
+        },
+        {
+            "symbol": "SYM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.854997225103826
+        },
+        {
+            "symbol": "SYS",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.592306209595396
+        },
+        {
+            "symbol": "SZTM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.0232428473089903
+        },
+        {
+            "symbol": "TATM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.6983736715388345
+        },
+        {
+            "symbol": "TBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.9980862341318562
+        },
+        {
+            "symbol": "TCORP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 13.975292252662303
+        },
+        {
+            "symbol": "TELE",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.0607235300691387
+        },
+        {
+            "symbol": "TGL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 21.310234730712075
+        },
+        {
+            "symbol": "THALL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.730359873341451
+        },
+        {
+            "symbol": "THCCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 38.16677915535995
+        },
+        {
+            "symbol": "TICL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 15.705382448707647
+        },
+        {
+            "symbol": "TOMCL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.904368430594836
+        },
+        {
+            "symbol": "TOWL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.2305954286335736
+        },
+        {
+            "symbol": "TPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -55.828829117991575
+        },
+        {
+            "symbol": "TPLI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 1.4284054753145572
+        },
+        {
+            "symbol": "TPLL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -141.92555828910577
+        },
+        {
+            "symbol": "TPLP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -41.165941730616446
+        },
+        {
+            "symbol": "TPLT",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.3926278247259027
+        },
+        {
+            "symbol": "TREET",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.396431125255403
+        },
+        {
+            "symbol": "TRG",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 10.450501982886465
+        },
+        {
+            "symbol": "TRIPF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -20.08932239261049
+        },
+        {
+            "symbol": "TRSM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.273070780347233
+        },
+        {
+            "symbol": "TSBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.113596000250631
+        },
+        {
+            "symbol": "TSMF",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 40.64295565370543
+        },
+        {
+            "symbol": "TSML",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.486550697122495
+        },
+        {
+            "symbol": "TSPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -5.941961048520987
+        },
+        {
+            "symbol": "UBDL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 39.03226878836905
+        },
+        {
+            "symbol": "UBL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 26.939294033533006
+        },
+        {
+            "symbol": "UCAPM",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -1.8633883496303767
+        },
+        {
+            "symbol": "UDLI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 3.0695907030398697
+        },
+        {
+            "symbol": "UDPL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 54.44120013379015
+        },
+        {
+            "symbol": "UNIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 32.75943251150073
+        },
+        {
+            "symbol": "UNITY",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.6235166903876985
+        },
+        {
+            "symbol": "UPFL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 49.30901974446718
+        },
+        {
+            "symbol": "UVIC",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 7.131124197032941
+        },
+        {
+            "symbol": "WAFI",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 14.009164725373974
+        },
+        {
+            "symbol": "WAHN",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 19.19895508446592
+        },
+        {
+            "symbol": "WASL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 4.1217160163639095
+        },
+        {
+            "symbol": "WAVES",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.9585389298152192
+        },
+        {
+            "symbol": "WAVESAPP",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 2.8382231765717325
+        },
+        {
+            "symbol": "WTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 248.2077540414273
+        },
+        {
+            "symbol": "YOUW",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": -6.634026450254975
+        },
+        {
+            "symbol": "ZAHID",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 6.140808683476273
+        },
+        {
+            "symbol": "ZAL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 32.592783200815056
+        },
+        {
+            "symbol": "ZIL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 5.617562703676064
+        },
+        {
+            "symbol": "ZTL",
+            "name": "roe",
+            "period": "TTM",
+            "period_end": null,
+            "value": 0.0703603795847521
+        }
+    ]
+}
