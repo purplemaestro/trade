@@ -1,127 +1,146 @@
-Name
-Sector
-52w High
-52w Low
-Shares
-Free Float
-Free Float %
-Market Cap.
-PP
-R1
-R2
-R3
-Beta
-% Change (1Y)
-% Change (YTD)
-% Change (FY)
-Sales
-PAT
-DISCO
-ADEXP
-Assets
-TCA
-TNCA
-TL
-TCL
-TNCL
-TE&TL
-OINC
-EPS
-COS
-GP
-OP
-FC
-PBT
-STOCK
-SIT
-IntAssets
-InvProp
-LTInv
-CaBaBal
-STInv
-LoanAdv
-SurpRev
-SubLoan
-EmpObl
-AccMarkup
-STBorr
-CurrLTB
-CurrLeLiab
-RES
-AccGL
-PPEQ
-LTDebt
-TRDebt
-TradePay
-ShareCap
-DPS
-GPM
-NPM
-PBTM
-OPM
-OIP
-ROE
-ROA
-ROCE
-DY
-Div Cover
-Average Asset
-RetRat
-EPC
-PayRat
-HistSP
-# Shares
-SPS
-BV/Sh
-PER
-PBR
-PSR
-NA/Sh
-Inv/Dep
-Dep/TE
-TE/Adv
-TEx
-TE/TA
-TL/TA
-LTD/TE
-LTD/TA
-Sol Ratio
-Int Cover
-Cash/Dep
-Cash/Sh
-Curr Ratio
-Quick Ratio
-C/CL
-WC Rs
-WC Days
-Rec Day
-Inv Day
-Pay Day
-TA T/O
-FA T/O
-Inv T/O
-DepFa
-Amort
-Royalty
-WCC
-CGO
-NCO
-DivRec
-PFA
-PIA
-PSF
-NCI
-DP
-LL
-NCF
-ICE
-CEB
-CEE
-SMA
-RSI
-BB
-STOCH
-MACD
-CCI
-ATR
-VOLT
+| Column Name    | Description                                           |
+| -------------- | ----------------------------------------------------- |
+| Name           | —                                                     |
+| Sector         | —                                                     |
+| Open           | —                                                     |
+| High           | —                                                     |
+| Low            | —                                                     |
+| Close          | —                                                     |
+| Change         | —                                                     |
+| % Change       | —                                                     |
+| Volume         | —                                                     |
+| LDCP           | —                                                     |
+| 52w High       | —                                                     |
+| 52w Low        | —                                                     |
+| Bid            | —                                                     |
+| Bid Volume     | —                                                     |
+| Ask            | —                                                     |
+| Ask Volume     | —                                                     |
+| Shares         | —                                                     |
+| Free Float     | —                                                     |
+| Free Float %   | —                                                     |
+| Market Cap.    | —                                                     |
+| PP             | Pivot Point                                           |
+| S1             | Support Level 1                                       |
+| S2             | Support Level 2                                       |
+| S3             | Support Level 3                                       |
+| R1             | Resistance Level 1                                    |
+| R2             | Resistance Level 2                                    |
+| R3             | Resistance Level 3                                    |
+| Beta           | —                                                     |
+| % Change (1W)  | —                                                     |
+| % Change (1M)  | —                                                     |
+| % Change (1Y)  | —                                                     |
+| % Change (YTD) | Year to Date                                          |
+| % Change (FY)  | Fiscal Year                                           |
+| Sales          | Mark up Earned, Net Premium Revenue, Total Income     |
+| PAT            | Profit After Taxation                                 |
+| DISCO          | Distribution Cost                                     |
+| ADEXP          | Administrative Expenses                               |
+| Assets         | Total Assets                                          |
+| TCA            | Total Current Assets                                  |
+| TNCA           | Total Non-Current Assets                              |
+| TL             | Total Liabilities                                     |
+| TCL            | Total Current Liabilities                             |
+| TNCL           | Total Non-Current Liabilities                         |
+| TE&TL          | Total Equity & Liabilities                            |
+| OINC           | Other Income                                          |
+| EPS            | Earnings per Share                                    |
+| COS            | Cost of Sales                                         |
+| GP             | Gross Profit                                          |
+| OP             | Profit from Operations                                |
+| FC             | Finance Cost                                          |
+| PBT            | Profit before Taxation                                |
+| STOCK          | Stock, Spare Parts and Loose Tools                    |
+| SIT            | Stock in Trade                                        |
+| IntAssets      | Intangible Assets                                     |
+| InvProp        | Investment Property                                   |
+| LTInv          | Long Term Investments                                 |
+| CaBaBal        | Cash and Bank Balances                                |
+| STInv          | Short term investments                                |
+| LoanAdv        | Loans and Advances                                    |
+| SurpRev        | Surplus on revaluation                                |
+| SubLoan        | Subordinated loans                                    |
+| EmpObl         | Employee benefit obligations                          |
+| AccMarkup      | Accrued markup                                        |
+| STBorr         | Short term borrowings                                 |
+| CurrLTB        | Current portion of long term borrowings               |
+| CurrLeLiab     | Current portion of lease liabilities                  |
+| RES            | Reserves                                              |
+| AccGL          | Accumulated Gain/Loss                                 |
+| PPEQ           | Property, plant and equipment                         |
+| LTDebt         | Long Term Debt                                        |
+| TRDebt         | Trade Debt                                            |
+| TradePay       | Trade and Other Payables                              |
+| ShareCap       | Share Capital                                         |
+| DPS            | Dividend per Share                                    |
+| GPM            | Gross Profit Margin, Gross Spread Ratio               |
+| NPM            | Net Profit Margin                                     |
+| PBTM           | Profit Before Tax Margin                              |
+| OPM            | Operating Profit Margin                               |
+| OIP            | Other income to PAT                                   |
+| ROE            | Return on Equity                                      |
+| ROA            | Return on Assets                                      |
+| ROCE           | Return on Capital Employed                            |
+| DY             | Dividend Yield                                        |
+| Div Cover      | Dividend Cover                                        |
+| Average Asset  | —                                                     |
+| RetRat         | Cash Retention Ratio                                  |
+| EPC            | Earnings per Certificate                              |
+| PayRat         | Cash Payout Ratio                                     |
+| HistSP         | Historical Share Price                                |
+| # Shares       | Number of shares                                      |
+| SPS            | Sales per share, Mark-up per share, Premium per Share |
+| BV/Sh          | Book Value per share (Rs)                             |
+| PER            | Price Earning's Ratio                                 |
+| PBR            | Price/Book Ratio                                      |
+| PSR            | Price to Sales Ratio                                  |
+| NA/Sh          | Net Asset per Share                                   |
+| Inv/Dep        | Investments to Deposits                               |
+| Dep/TE         | Deposits to Equity                                    |
+| TE/Adv         | Equity to Advances                                    |
+| TEx            | Equity Multiplier                                     |
+| TE/TA          | Total Equity to Total Asset Ratio                     |
+| TL/TA          | Liabilities to Assets                                 |
+| LTD/TE         | Long term Debt to Total Equity                        |
+| LTD/TA         | Long Term Debt to Assets Ratio                        |
+| Sol Ratio      | Solvency Ratio                                        |
+| Int Cover      | Interest Cover                                        |
+| Cash/Dep       | Cash to Deposit Ratio                                 |
+| Cash/Sh        | Cash per Share                                        |
+| Curr Ratio     | Current Ratio                                         |
+| Quick Ratio    | —                                                     |
+| C/CL           | Cash to Current Liabilities                           |
+| WC Rs          | Working Capital (RS)                                  |
+| WC Days        | Working Capital (Days)                                |
+| Rec Day        | Receivable Days                                       |
+| Inv Day        | Inventory Days                                        |
+| Pay Day        | Payable Days                                          |
+| TA T/O         | Total Assets Turnover                                 |
+| FA T/O         | Fixed Asset Turnover                                  |
+| Inv T/O        | Inventory Turnover                                    |
+| DepFa          | Depreciation on fixed assets                          |
+| Amort          | Amortization                                          |
+| Royalty        | Royalty                                               |
+| WCC            | Working capital changes                               |
+| CGO            | Cash generated from operating activities              |
+| NCO            | Net cash flow from operating activities               |
+| DivRec         | Dividends received                                    |
+| PFA            | Purchase of fixed assets                              |
+| PIA            | Purchase of Intangible assets                         |
+| PSF            | Proceeds from sale of fixed assets                    |
+| NCI            | Net cash flow used in investing activities            |
+| DP             | Dividend Paid                                         |
+| LL             | Long-term loan obtained                               |
+| NCF            | Net cash flow used in financing activities            |
+| ICE            | Increase in cash and cash equivalent                  |
+| CEB            | Cash and cash equivalents at beginning of the period  |
+| CEE            | Cash and cash equivalents at end of the period        |
+| SMA            | Simple Moving Average                                 |
+| RSI            | Relative Strength Index                               |
+| BB             | Bollinger Bands                                       |
+| STOCH          | Stochastic Oscillator                                 |
+| MACD           | Moving Average Convergence/Divergence                 |
+| CCI            | Commodity Channel Index                               |
+| ATR            | Average True Range                                    |
+| VOLT           | Volatility                                            |

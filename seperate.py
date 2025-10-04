@@ -103,7 +103,7 @@ def recommend_day_trade(json_data):
 # ------------------ Swing Trading Strategy ------------------
 def recommend_swing_trade(json_data):
     results = []
-    equities = json_data.get("data", {}).get("eq", {})
+    equities = json_data
     
     for symbol, details in equities.items():
         ldcp = details.get("ldcp", 0)
@@ -139,29 +139,103 @@ def recommend_swing_trade(json_data):
     return sorted(results, key=lambda x: (x["score"],x["price"], x["p3m"], x["pch"]), reverse=True)
 
 # ------------------ Long Term Strategy ------------------
+# ------------------ Long Term Strategy (Extended) ------------------
 def recommend_long_term(json_data):
     results = []
-    equities = json_data.get("data", {}).get("eq", {})
-    
+    equities = json_data
+
     for symbol, details in equities.items():
+        ldcp = details.get("ldcp", 0)  # last price
         eps = details.get("eps", 0)
-        roe = details.get("roe", None)  # now merged from external file
-        roa = details.get("roa", None)  # now merged from external file
+        roe = details.get("roe", None)
+        roa = details.get("roa", None)
         pat = details.get("pat", 0)
-        ldcp = details.get("ldcp", 0)
-        score = 0
+        bv = details.get("bval", None)
+        per = details.get("per", None)  # P/E
+        pbr = details.get("pbr", None)  # P/B
+        psr = details.get("psr", None)  # P/S
+        dy = details.get("divy", None)    # Dividend Yield %
+        div_cover = details.get("divc", None)
+        npm = details.get("npm", None)  # Net Profit Margin %
+        opm = details.get("opm", None)  # Operating Profit Margin %
+        roce = details.get("roce", None)  # Return on Capital Employed
+
+        # --- Balance Sheet Strength ---
+        # Calculate equity
+        equity = (details.get("share_cap", 0) or 0) + (details.get("res", 0) or 0)
+        total_debt = details.get("tr_debt", 0) or 0
+
+        debt_equity = details.get("grat", None)  # Debt/Equity ratio
+        
+
+        if debt_equity is not None and debt_equity < 1:
+            score += 2; reasons.append(f"Low Debt/Equity {round(debt_equity, 2)}")
+        
+        
+        
+        int_cover = details.get("intc", None)  # Interest Cover
+        current_ratio = details.get("curr", None)
+        quick_ratio = details.get(" ", None)
+        fcf = details.get("fc", None)   # Free Cash Flow
+        fcf = (details.get("opp", 0) or 0) - (details.get("ppeq", 0) or 0)
+        sales = details.get("sales", 0)
+        sales_growth = details.get("%chg1y", None)  # Approx using 1Y % Change
 
         if ldcp <= 0:
             continue
 
+        score = 0
+        reasons = []
+
+        # --- Profitability ---
         if eps > 0:
-            score += 2
-        if roe and roe > 10:
-            score += 2
-        if roa and roa > 5:
-            score += 1
+            score += 2; reasons.append("EPS positive")
+        if roe and roe > 12:
+            score += 2; reasons.append(f"ROE {roe}% strong")
+        if roa and roa > 6:
+            score += 1; reasons.append(f"ROA {roa}% healthy")
+        if roce and roce > 10:
+            score += 1; reasons.append(f"ROCE {roce}% good")
         if pat > 0:
-            score += 1
+            score += 1; reasons.append("PAT positive")
+        if npm and npm > 8:
+            score += 1; reasons.append("High Net Profit Margin")
+        if opm and opm > 12:
+            score += 1; reasons.append("High Operating Margin")
+
+        # --- Valuation ---
+        if per and 5 < per < 15:
+            score += 2; reasons.append(f"Reasonable PE {per}")
+        if pbr and pbr < 2:
+            score += 1; reasons.append(f"Cheap PB {pbr}")
+        if psr and psr < 2:
+            score += 1; reasons.append("Good PS ratio")
+        if bv and ldcp < bv:
+            score += 2; reasons.append("Price below Book Value")
+        if dy and dy > 3:
+            score += 1; reasons.append(f"Attractive Dividend Yield {dy}%")
+        if div_cover and div_cover > 2:
+            score += 1; reasons.append("Dividend well covered")
+
+        # --- Balance Sheet Strength ---
+        if debt_equity is not None and debt_equity < 1:
+            score += 2; reasons.append("Low Debt/Equity")
+        if int_cover and int_cover > 3:
+            score += 1; reasons.append("Comfortable Interest Cover")
+        if current_ratio and current_ratio > 1.5:
+            score += 1; reasons.append("Healthy Current Ratio")
+        if quick_ratio and quick_ratio > 1:
+            score += 1; reasons.append("Healthy Quick Ratio")
+
+        # --- Cash Flow ---
+        if fcf and fcf > 0:
+            score += 2; reasons.append("Positive Free Cash Flow")
+
+        # --- Growth ---
+        if sales and sales > 0:
+            score += 1; reasons.append("Sales positive")
+        if sales_growth and sales_growth > 5:
+            score += 1; reasons.append(f"Sales growth {sales_growth}%")
 
         results.append({
             "symbol": symbol,
@@ -171,10 +245,20 @@ def recommend_long_term(json_data):
             "roe": roe,
             "roa": roa,
             "pat": pat,
-            "score": score
+            "per": per,
+            "pbr": pbr,
+            "dy": dy,
+            "debt_equity": debt_equity,
+            "int_cover": int_cover,
+            "current_ratio": current_ratio,
+            "quick_ratio": quick_ratio,
+            "fcf": fcf,
+            "score": score,
+            "reasons": "; ".join(reasons)
         })
-    
-    return sorted(results, key=lambda x: (x["score"],-x["price"], x["roe"] if x["roe"] else 0, x["eps"]), reverse=True)
+
+    # Sort by score (high to low), then by ROE, then by EPS
+    return sorted(results, key=lambda x: (x["score"], x["roe"] if x["roe"] else 0, x["eps"]), reverse=True)
 
 # ------------------ Undervalued Strategy ------------------
 def find_undervalued(json_data):
@@ -230,16 +314,8 @@ def save_to_csv(filename, results, fieldnames):
 # ------------------ Main ------------------
 if __name__ == "__main__":
     with open("stocks.json", "r") as f:
-        stocks_data = json.load(f)
-    with open("roe.json", "r") as f:
-        roe_data = json.load(f)
-    with open("roa.json", "r") as f:
-        roa_data = json.load(f)
-    with open("bv.json", "r") as f:
-        bv_data = json.load(f)
-
-    # merge roe/roa into stocks_data
-    data = merge_metrics(stocks_data, roe_data, roa_data,bv_data)
+        data = json.load(f)
+    
     
     print("Choose trading strategy:")
     print("1. Day Trading")
@@ -259,7 +335,7 @@ if __name__ == "__main__":
     elif choice == "3":
         recommendations = recommend_long_term(data)
         filename = "long_term.csv"
-        fields = ["symbol","name","price","eps","roe","roa","pat","score"]
+        fields = ["symbol","name","price","eps","roe","roa","pat","per","pbr","dy","debt_equity","int_cover","current_ratio","quick_ratio","fcf","score","reasons"]
     elif choice == "4":
         recommendations = find_undervalued(data)
         filename = "undervalued.csv"
