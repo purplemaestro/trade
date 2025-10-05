@@ -143,14 +143,18 @@ def recommend_swing_trade(json_data, config=None):
         v = details.get("v", 0)
         vm = details.get("vm", 0)
         rsi = details.get("rsi", None)
+        
+        
         uc = details.get("uc", 0)
         lc = details.get("lc", 0)
         pp_data = details.get("pp") or {}
 
         # Skip invalids / illiquid
-        if not ldcp or ldcp < 5 or v < 100000:
+        if not ldcp:
             continue
-        if(symbol=="PREMA"):
+        technicals = details.get("technicals", [])
+        rsi = calculate_rsi(technicals, 20)
+        if(symbol=="SPEL"):
             print(details)
         # --- Derived Metrics ---
         rel_vol = (v / vm) if vm else 0
@@ -183,7 +187,7 @@ def recommend_swing_trade(json_data, config=None):
 
         # --- Trend Confirmation (SMA) ---
         sma_20 = details.get("sma_20")
-        technicals = details.get("technicals", [])
+        
         sma_20 = calculate_sma(technicals, 20)
         sma_50 = calculate_sma(technicals, 50)
         if sma_20 and sma_50:
@@ -380,14 +384,14 @@ def recommend_long_term(json_data):
 # ------------------ Undervalued Strategy ------------------
 def find_undervalued(json_data):
     results = []
-    equities = json_data.get("data", {}).get("eq", {})
+    equities = json_data
 
     for symbol, details in equities.items():
         ldcp = details.get("ldcp", 0)  # last price
         eps = details.get("eps", 0)
         roe = details.get("roe", None)
         pat = details.get("pat", 0)
-        bv = details.get("bv", None)  # book value (if available)
+        bv = details.get("bval", None)  # book value (if available)
 
         if ldcp <= 0 or eps <= 0:
             continue
@@ -451,6 +455,44 @@ def calculate_sma(technicals, period):
 def calculate_pch(e,t):
         return (e - t) / t if t != 0 else 0
 
+def calculate_rsi(data, period):
+    n = int(period)
+    if len(data) < n + 1:
+        return None
+
+    avg_gain = 0
+    avg_loss = 0
+
+    for o in range(len(data)):
+        if o == 0:
+            continue
+
+        gain = 0
+        loss = 0
+        diff = data[o][4] - data[o - 1][4]  # assuming close price is at index 4
+
+        if diff > 0:
+            gain = diff
+        elif diff < 0:
+            loss = abs(diff)
+
+        if o <= n:
+            avg_gain += gain
+            avg_loss += loss
+
+        if o == n:
+            avg_gain /= n
+            avg_loss /= n
+
+        if o > n:
+            avg_gain = (avg_gain * (n - 1) + gain) / n
+            avg_loss = (avg_loss * (n - 1) + loss) / n
+
+    if avg_loss == 0:
+        return 100  # prevent division by zero
+
+    rs = avg_gain / avg_loss
+    return 100 - (100 / (1 + rs))
 
 def calculate_macd(technicals, short_period=12, long_period=26, signal_period=9, mode='M'):
     """
