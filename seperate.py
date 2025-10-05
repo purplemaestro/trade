@@ -150,7 +150,8 @@ def recommend_swing_trade(json_data, config=None):
         # Skip invalids / illiquid
         if not ldcp or ldcp < 5 or v < 100000:
             continue
-
+        if(symbol=="PREMA"):
+            print(details)
         # --- Derived Metrics ---
         rel_vol = (v / vm) if vm else 0
         volatility = ((uc - lc) / ldcp * 100) if ldcp > 0 else 0
@@ -192,11 +193,12 @@ def recommend_swing_trade(json_data, config=None):
                 score += weights["trend_bearish"]
 
         # --- Multi-Timeframe Momentum ---
-        pch_1w = details.get("pch_1w", 0)
-        pch_1m = details.get("pch_1m", 0)
-        pch_periods = calculate_pch_periods(technicals)
-        pch_1w = details.get("pch_1w", pch_periods["pch_1w"])
-        pch_1m = details.get("pch_1m", pch_periods["pch_1m"])
+        p1m = details.get("p1m", 0)
+        p1w = details.get("p1w", 0)
+        
+        pch_1w = calculate_pch(ldcp, p1w)
+        pch_1m = calculate_pch(ldcp, p1m)
+        
         if pch_1w > 3:
             score += weights["momentum_week"]
         if pch_1m > 5:
@@ -446,53 +448,9 @@ def calculate_sma(technicals, period):
     sma = sum(closes) / len(closes)
     return round(sma, 2)
 
-def calculate_pch_periods(technicals, days_in_week=5, days_in_month=21):
-    """
-    Calculate 1-week (pch_1w) and 1-month (pch_1m) percent change (PCH)
-    from the 'technicals' array.
+def calculate_pch(e,t):
+        return (e - t) / t if t != 0 else 0
 
-    Each element in 'technicals' must follow the format:
-        [timestamp, open, high, low, close, volume, ...]
-    The PCH is calculated using the close price.
-
-    Args:
-        technicals (list): List of technical data bars.
-        days_in_week (int): Approx. number of trading days in a week (default 5).
-        days_in_month (int): Approx. number of trading days in a month (default 21).
-
-    Returns:
-        dict: {
-            "pch_1w": float,
-            "pch_1m": float
-        }
-    """
-    result = {"pch_1w": 0.0, "pch_1m": 0.0}
-
-    if not technicals or len(technicals) < 2:
-        return result
-
-    # Ensure all bars have valid close values
-    closes = [bar[4] for bar in technicals if len(bar) > 4 and isinstance(bar[4], (int, float))]
-    if not closes:
-        return result
-
-    last_close = closes[-1]
-
-    # --- 1 Week Change ---
-    if len(closes) > days_in_week:
-        prev_week_close = closes[-(days_in_week + 1)]
-        result["pch_1w"] = round(((last_close - prev_week_close) / prev_week_close) * 100, 2)
-    else:
-        result["pch_1w"] = 0.0
-
-    # --- 1 Month Change ---
-    if len(closes) > days_in_month:
-        prev_month_close = closes[-(days_in_month + 1)]
-        result["pch_1m"] = round(((last_close - prev_month_close) / prev_month_close) * 100, 2)
-    else:
-        result["pch_1m"] = 0.0
-
-    return result
 
 def calculate_macd(technicals, short_period=12, long_period=26, signal_period=9, mode='M'):
     """
