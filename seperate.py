@@ -101,42 +101,157 @@ def recommend_day_trade(json_data):
     return sorted(results, key=lambda x: (x["score"], x["rel_vol"]), reverse=True)
 
 # ------------------ Swing Trading Strategy ------------------
-def recommend_swing_trade(json_data):
+def recommend_swing_trade(json_data, config=None):
+    """
+    Swing trade screener — enhanced logic with trend, momentum, volume, RSI, and pivots.
+
+    Args:
+        json_data: JSON data from screener (with 'data' > 'eq' structure)
+        config: optional dict of scoring weights
+    Returns:
+        Sorted list of swing trade candidates
+    """
+
+    # --- Default weights ---
+    weights = {
+        "pch_positive": 2,
+        "pch_negative": 1,
+        "rel_vol_high": 2,
+        "rel_vol_medium": 1,
+        "rsi_oversold": 2,
+        "rsi_overbought": 1,
+        "volatility_high": 1,
+        "trend_bullish": 2,
+        "trend_bearish": -1,
+        "momentum_week": 1,
+        "momentum_month": 1,
+        "pivot_near": 1,
+        "pivot_support_bounce": 2,
+        "pivot_resistance_reject": -1,
+        "macd_bullish": 1,
+    }
+
+    if config:
+        weights.update(config)
+
     results = []
     equities = json_data
-    
+
     for symbol, details in equities.items():
         ldcp = details.get("ldcp", 0)
         pch = details.get("pch", 0)
+        v = details.get("v", 0)
+        vm = details.get("vm", 0)
         rsi = details.get("rsi", None)
-        p1m = details.get("p1m", 0)
-        p3m = details.get("p3m", 0)
-        score = 0
+        uc = details.get("uc", 0)
+        lc = details.get("lc", 0)
+        pp_data = details.get("pp") or {}
 
-        if ldcp <= 0:
+        # Skip invalids / illiquid
+        if not ldcp or ldcp < 5 or v < 100000:
             continue
 
-        if p1m < ldcp and p3m < ldcp:
-            score += 2  # uptrend
-        
-        if rsi and 40 < rsi < 60:
-            score += 1
-        
-        if pch > 1:
-            score += 1
+        # --- Derived Metrics ---
+        rel_vol = (v / vm) if vm else 0
+        volatility = ((uc - lc) / ldcp * 100) if ldcp > 0 else 0
+        score = 0
+        near_level = None
 
+        # --- Momentum (Daily) ---
+        if pch > 2:
+            score += weights["pch_positive"]
+        elif pch < -2:
+            score += weights["pch_negative"]
+
+        # --- Volume Strength ---
+        if rel_vol > 2:
+            score += weights["rel_vol_high"]
+        elif rel_vol > 1:
+            score += weights["rel_vol_medium"]
+
+        # --- RSI ---
+        if rsi and abs(rsi) < 1000:
+            if rsi < 30:
+                score += weights["rsi_oversold"]
+            elif rsi > 70:
+                score += weights["rsi_overbought"]
+
+        # --- Volatility ---
+        if volatility > 5:
+            score += weights["volatility_high"]
+
+        # --- Trend Confirmation (SMA) ---
+        sma_20 = details.get("sma_20")
+        technicals = details.get("technicals", [])
+        sma_20 = calculate_sma(technicals, 20)
+        sma_50 = calculate_sma(technicals, 50)
+        if sma_20 and sma_50:
+            if sma_20 > sma_50:
+                score += weights["trend_bullish"]
+            elif sma_20 < sma_50:
+                score += weights["trend_bearish"]
+
+        # --- Multi-Timeframe Momentum ---
+        pch_1w = details.get("pch_1w", 0)
+        pch_1m = details.get("pch_1m", 0)
+        pch_periods = calculate_pch_periods(technicals)
+        pch_1w = details.get("pch_1w", pch_periods["pch_1w"])
+        pch_1m = details.get("pch_1m", pch_periods["pch_1m"])
+        if pch_1w > 3:
+            score += weights["momentum_week"]
+        if pch_1m > 5:
+            score += weights["momentum_month"]
+
+        # --- Pivot Point Proximity ---
+        pivot_levels = {
+            "Pivot": pp_data.get("pp", ldcp),
+            "R1": pp_data.get("r1", 0),
+            "R2": pp_data.get("r2", 0),
+            "R3": pp_data.get("r3", 0),
+            "S1": pp_data.get("s1", 0),
+            "S2": pp_data.get("s2", 0),
+            "S3": pp_data.get("s3", 0),
+        }
+
+        for level_name, level_value in pivot_levels.items():
+            if level_value and abs(ldcp - level_value) / ldcp < 0.02:
+                near_level = level_name
+                score += weights["pivot_near"]
+
+                # Bounce/Reject Logic
+                if level_name in ("S1", "S2") and rsi and rsi < 35:
+                    score += weights["pivot_support_bounce"]
+                elif level_name in ("R1", "R2") and rsi and rsi > 65:
+                    score += weights["pivot_resistance_reject"]
+                break
+
+        # --- MACD Confirmation ---
+
+        macd = calculate_macd(technicals, 12, 26, 9, 'M')  # MACD main line
+        macd_signal = calculate_macd(technicals, 12, 26, 9, 'S')  # Signal line
+
+
+        # macd = details.get("macd")
+        # macd_signal = details.get("macd_signal")
+        if macd and macd_signal and macd > macd_signal:
+            score += weights["macd_bullish"]
+
+        # --- Collect Result ---
         results.append({
             "symbol": symbol,
             "name": details.get("nm", ""),
             "price": ldcp,
             "pch": pch,
-            "rsi": rsi if rsi and abs(rsi) < 1000 else None,
-            "p1m": p1m,
-            "p3m": p3m,
-            "score": score
+            "volume": v,
+            "rel_vol": round(rel_vol, 2),
+            "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else None,
+            "volatility_%": round(volatility, 2),
+            "near_level": near_level,
+            "score": score,
         })
-    
-    return sorted(results, key=lambda x: (x["score"],x["price"], x["p3m"], x["pch"]), reverse=True)
+
+    # --- Sort & Return ---
+    return sorted(results, key=lambda x: (x["score"], x["rel_vol"]), reverse=True)
 
 # ------------------ Long Term Strategy ------------------
 # ------------------ Long Term Strategy (Extended) ------------------
@@ -303,6 +418,138 @@ def find_undervalued(json_data):
 
     return sorted(results, key=lambda x: (x["score"], -x["pe_ratio"] if x["pe_ratio"] else 9999), reverse=True)
 
+# ------------------ SMA Calculator ------------------
+def calculate_sma(technicals, period):
+    """
+    Calculate Simple Moving Average (SMA) for the given period
+    from the 'technicals' array (each bar = [timestamp, open, high, low, close, volume]).
+
+    Args:
+        technicals (list): List of bar arrays
+        period (int): Number of bars to include in the average
+
+    Returns:
+        float: SMA value (rounded to 2 decimals) or None if insufficient data
+    """
+    if not technicals or len(technicals) < period:
+        return None
+
+    # Get the last `period` bars
+    recent_bars = technicals[-period:]
+
+    # Extract closing prices safely (index 4)
+    closes = [bar[4] for bar in recent_bars if len(bar) > 4 and isinstance(bar[4], (int, float))]
+
+    if not closes:
+        return None
+
+    sma = sum(closes) / len(closes)
+    return round(sma, 2)
+
+def calculate_pch_periods(technicals, days_in_week=5, days_in_month=21):
+    """
+    Calculate 1-week (pch_1w) and 1-month (pch_1m) percent change (PCH)
+    from the 'technicals' array.
+
+    Each element in 'technicals' must follow the format:
+        [timestamp, open, high, low, close, volume, ...]
+    The PCH is calculated using the close price.
+
+    Args:
+        technicals (list): List of technical data bars.
+        days_in_week (int): Approx. number of trading days in a week (default 5).
+        days_in_month (int): Approx. number of trading days in a month (default 21).
+
+    Returns:
+        dict: {
+            "pch_1w": float,
+            "pch_1m": float
+        }
+    """
+    result = {"pch_1w": 0.0, "pch_1m": 0.0}
+
+    if not technicals or len(technicals) < 2:
+        return result
+
+    # Ensure all bars have valid close values
+    closes = [bar[4] for bar in technicals if len(bar) > 4 and isinstance(bar[4], (int, float))]
+    if not closes:
+        return result
+
+    last_close = closes[-1]
+
+    # --- 1 Week Change ---
+    if len(closes) > days_in_week:
+        prev_week_close = closes[-(days_in_week + 1)]
+        result["pch_1w"] = round(((last_close - prev_week_close) / prev_week_close) * 100, 2)
+    else:
+        result["pch_1w"] = 0.0
+
+    # --- 1 Month Change ---
+    if len(closes) > days_in_month:
+        prev_month_close = closes[-(days_in_month + 1)]
+        result["pch_1m"] = round(((last_close - prev_month_close) / prev_month_close) * 100, 2)
+    else:
+        result["pch_1m"] = 0.0
+
+    return result
+
+def calculate_macd(technicals, short_period=12, long_period=26, signal_period=9, mode='M'):
+    """
+    Calculate MACD (Moving Average Convergence Divergence)
+    for a list of technical bars (each bar = [timestamp, open, high, low, close, volume]).
+
+    Args:
+        technicals (list): List of bars
+        short_period (int): Short-term SMA period (default 12)
+        long_period (int): Long-term SMA period (default 26)
+        signal_period (int): Signal line SMA period (default 9)
+        mode (str): 'M' = MACD line, 'S' = Signal line, 'H' = Histogram
+
+    Returns:
+        float or None: Calculated MACD value based on mode
+    """
+    if not technicals:
+        return None
+
+    max_period = max(short_period, long_period)
+    required_bars = max_period + signal_period
+
+    # Keep only the last `required_bars`
+    data = technicals[-required_bars:]
+
+    if len(data) < required_bars:
+        return None
+
+    closes = [bar[4] for bar in data if len(bar) > 4 and isinstance(bar[4], (int, float))]
+    if len(closes) < required_bars:
+        return None
+
+    # Compute MACD values for last `signal_period` bars
+    macd_values = []
+    for i in range(len(closes) - signal_period, len(closes)):
+        if i - short_period + 1 < 0 or i - long_period + 1 < 0:
+            continue
+
+        short_sma = sum(closes[i - short_period + 1 : i + 1]) / short_period
+        long_sma = sum(closes[i - long_period + 1 : i + 1]) / long_period
+        macd_values.append(short_sma - long_sma)
+
+    if not macd_values:
+        return None
+
+    macd_last = macd_values[-1]
+    signal_avg = sum(macd_values) / len(macd_values)
+
+    if mode == 'M':
+        return round(macd_last, 2)
+    elif mode == 'S':
+        return round(signal_avg, 2)
+    elif mode == 'H':
+        return round(macd_last - signal_avg, 2)
+    else:
+        return None
+
 # ------------------ Save to CSV ------------------
 def save_to_csv(filename, results, fieldnames):
     with open(filename, "w", newline="", encoding="utf-8") as csvfile:
@@ -310,6 +557,7 @@ def save_to_csv(filename, results, fieldnames):
         writer.writeheader()
         for row in results:
             writer.writerow(row)
+
 
 # ------------------ Main ------------------
 if __name__ == "__main__":
@@ -329,9 +577,16 @@ if __name__ == "__main__":
         filename = "day_trade.csv"
         fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score"]
     elif choice == "2":
-        recommendations = recommend_swing_trade(data)
+        custom_weights = {
+            "rsi_oversold": 3,
+            "trend_bullish": 3,
+            "pivot_support_bounce": 3,
+            "pch_positive": 1,  # reduce daily momentum importance
+        }
+        recommendations = recommend_swing_trade(data, config=custom_weights)
+        #recommendations = recommend_swing_trade(data)
         filename = "swing_trade.csv"
-        fields = ["symbol","name","price","pch","rsi","p1m","p3m","score"]
+        fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score"]
     elif choice == "3":
         recommendations = recommend_long_term(data)
         filename = "long_term.csv"
