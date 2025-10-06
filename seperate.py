@@ -424,6 +424,139 @@ def find_undervalued(json_data):
 
     return sorted(results, key=lambda x: (x["score"], -x["pe_ratio"] if x["pe_ratio"] else 9999), reverse=True)
 
+# ------------------ Fundamentally Strong & Undervalued Strategy ------------------
+def find_fundamentally_strong(json_data):
+    """
+    Identify fundamentally strong and undervalued stocks.
+    Combines profitability, balance sheet health, valuation,
+    and adds technical confirmation using RSI and MACD.
+    """
+    results = []
+    equities = json_data
+
+    for symbol, details in equities.items():
+        ldcp = details.get("ldcp", 0)
+        eps = details.get("eps", 0)
+        roe = details.get("roe")
+        roa = details.get("roa")
+        per = details.get("per")
+        pbr = details.get("pbr")
+        dy = details.get("divy")
+        bv = details.get("bval")
+        pat = details.get("pat", 0)
+        npm = details.get("npm")
+        opm = details.get("opm")
+        roce = details.get("roce")
+        debt_equity = details.get("grat")
+        int_cover = details.get("intc")
+        current_ratio = details.get("curr")
+        sales_growth = details.get("%chg1y")
+        technicals = details.get("technicals")  # Expect list of bars [timestamp, open, high, low, close, volume]
+        rsi = details.get("rsi")  # Assume you already store RSI value in JSON
+
+        if ldcp <= 0 or eps <= 0:
+            continue
+
+        score = 0
+        reasons = []
+
+        # --- Profitability ---
+        if roe and roe > 15:
+            score += 2; reasons.append(f"High ROE {roe}%")
+        if roa and roa > 6:
+            score += 1; reasons.append(f"Healthy ROA {roa}%")
+        if npm and npm > 10:
+            score += 1; reasons.append(f"Good NPM {npm}%")
+        if opm and opm > 12:
+            score += 1; reasons.append(f"Good OPM {opm}%")
+        if roce and roce > 10:
+            score += 1; reasons.append(f"Solid ROCE {roce}%")
+        if pat > 0:
+            score += 1; reasons.append("Positive PAT")
+
+        # --- Valuation ---
+        if per and 5 < per < 12:
+            score += 2; reasons.append(f"Attractive PE {per}")
+        elif per and per < 5:
+            score += 1; reasons.append(f"Very Low PE {per} (possible value trap)")
+        if pbr and pbr < 1.5:
+            score += 1; reasons.append(f"Low PB {pbr}")
+        if bv and ldcp < bv:
+            score += 2; reasons.append("Price below Book Value")
+        if dy and dy > 3:
+            score += 1; reasons.append(f"Good Dividend Yield {dy}%")
+
+        # --- Balance Sheet Strength ---
+        if debt_equity is not None and debt_equity < 0.5:
+            score += 2; reasons.append(f"Low Debt/Equity {debt_equity}")
+        elif debt_equity is not None and debt_equity < 1:
+            score += 1; reasons.append(f"Moderate Debt/Equity {debt_equity}")
+        if int_cover and int_cover > 3:
+            score += 1; reasons.append("Comfortable Interest Coverage")
+        if current_ratio and current_ratio > 1.5:
+            score += 1; reasons.append("Healthy Current Ratio")
+
+        # --- Technical Indicators ---
+        macd_value = None
+        macd_signal = None
+        macd_hist = None
+
+        if technicals:
+            try:
+                macd_value = calculate_macd(technicals, mode='M')
+                macd_signal = calculate_macd(technicals, mode='S')
+                macd_hist = calculate_macd(technicals, mode='H')
+            except Exception as e:
+                macd_value = macd_signal = macd_hist = None
+
+        # RSI Buy Zone (oversold / rising)
+        if rsi:
+            if rsi < 30:
+                score += 1; reasons.append(f"RSI {rsi} — Oversold (Potential Reversal)")
+            elif 30 <= rsi <= 45:
+                score += 0.5; reasons.append(f"RSI {rsi} — Early Accumulation Zone")
+
+        # MACD Confirmation (MACD > Signal and Histogram > 0)
+        if macd_value is not None and macd_signal is not None:
+            if macd_value > macd_signal and macd_hist and macd_hist > 0:
+                score += 1.5; reasons.append(f"MACD Bullish Crossover ({macd_value}>{macd_signal})")
+            elif macd_value < macd_signal and macd_hist and macd_hist < 0:
+                reasons.append(f"MACD Bearish ({macd_value}<{macd_signal})")
+
+        # --- Combine Undervaluation & Strength ---
+        if score >= 7:
+            results.append({
+                "symbol": symbol,
+                "name": details.get("nm", ""),
+                "price": ldcp,
+                "eps": eps,
+                "roe": roe,
+                "roa": roa,
+                "per": per,
+                "pbr": pbr,
+                "dy": dy,
+                "bv": bv,
+                "rsi": rsi,
+                "macd": macd_value,
+                "macd_signal": macd_signal,
+                "macd_hist": macd_hist,
+                "debt_equity": debt_equity,
+                "npm": npm,
+                "roce": roce,
+                "current_ratio": current_ratio,
+                "sales_growth": sales_growth,
+                "score": round(score, 2),
+                "reasons": "; ".join(reasons)
+            })
+
+    # Sort primarily by score, then by bullish MACD and ROE
+    return sorted(results, key=lambda x: (
+        x["score"],
+        (x["macd_hist"] if x["macd_hist"] else 0),
+        (x["roe"] if x["roe"] else 0)
+    ), reverse=True)
+
+
 # ------------------ SMA Calculator ------------------
 def calculate_sma(technicals, period):
     """
@@ -595,6 +728,16 @@ if __name__ == "__main__":
         recommendations = find_undervalued(data)
         filename = "undervalued.csv"
         fields = ["symbol","name","price","eps","roe","pat","pe_ratio","book_value","score"]
+    elif choice == "5":
+        recommendations = find_fundamentally_strong(data)
+        filename = "fundamentally_strong.csv"
+        fields = [
+            "symbol", "name", "price", "eps", "roe", "roa", "per", "pbr", "dy",
+            "bv", "debt_equity", "npm", "roce", "current_ratio", "sales_growth",
+            "score", "reasons","rsi","macd","macd_signal","macd_hist"
+        ]
+
+    
     else:
         print("❌ Invalid choice. Please run again.")
         exit()
