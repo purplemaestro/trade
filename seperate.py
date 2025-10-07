@@ -703,6 +703,7 @@ if __name__ == "__main__":
     print("2. Swing Trading")
     print("3. Long Term Investing")
     print("4. Find Undervalued")
+    print("5. Fundamentally Strong & Undervalued")
     choice = input("Enter choice (1/2/3/4): ").strip()
     
     if choice == "1":
@@ -743,5 +744,12 @@ if __name__ == "__main__":
         exit()
     
     # Save results
+    base, ext = os.path.splitext(filename)
+    counter = 1
+    while os.path.exists(filename):
+        filename = f"{base}_{counter}{ext}"
+        counter += 1
+    
     save_to_csv(filename, recommendations, fields)
     print(f"\n✅ Results saved to {filename}")
+    # ...existing code...    print(f"\n✅ Results saved to {filename}")

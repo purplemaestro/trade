@@ -1,7 +1,7 @@
 import json
 import os
 
-def extract_and_merge(har_file, output_file="merged.json"):
+def extract_and_merge(har_file, output_file="stocks.json"):
     # Load HAR file
     with open(har_file, "r", encoding="utf-8") as f:
         har_data = json.load(f)
