@@ -22,12 +22,12 @@ def merge_metrics(base_data, roe_data, roa_data,bv_data):
     return base_data
 
 # ------------------ Day Trading Strategy ------------------
-def recommend_day_trade(json_data):
+def recommend_day_trade(json_data,read_previous_day_price=False):
     results = []
     equities = json_data.get("data", {}).get("eq", {})
     
     for symbol, details in equities.items():
-        ldcp = details.get("ldcp", 0)
+        ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         pch = details.get("pch", 0)
         v = details.get("v", 0)
         vm = details.get("vm", 0)
@@ -101,7 +101,7 @@ def recommend_day_trade(json_data):
     return sorted(results, key=lambda x: (x["score"], x["rel_vol"]), reverse=True)
 
 # ------------------ Swing Trading Strategy ------------------
-def recommend_swing_trade(json_data, config=None):
+def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
     """
     Swing trade screener — enhanced logic with trend, momentum, volume, RSI, and pivots.
 
@@ -138,7 +138,7 @@ def recommend_swing_trade(json_data, config=None):
     equities = json_data
 
     for symbol, details in equities.items():
-        ldcp = details.get("ldcp", 0)
+        ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         pch = details.get("pch", 0)
         v = details.get("v", 0)
         vm = details.get("vm", 0)
@@ -261,12 +261,12 @@ def recommend_swing_trade(json_data, config=None):
 
 # ------------------ Long Term Strategy ------------------
 # ------------------ Long Term Strategy (Extended) ------------------
-def recommend_long_term(json_data):
+def recommend_long_term(json_data,read_previous_day_price=False):
     results = []
     equities = json_data
 
     for symbol, details in equities.items():
-        ldcp = details.get("ldcp", 0)  # last price
+        ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         eps = details.get("eps", 0)
         roe = details.get("roe", None)
         roa = details.get("roa", None)
@@ -382,12 +382,12 @@ def recommend_long_term(json_data):
     return sorted(results, key=lambda x: (x["score"], x["roe"] if x["roe"] else 0, x["eps"]), reverse=True)
 
 # ------------------ Undervalued Strategy ------------------
-def find_undervalued(json_data):
+def find_undervalued(json_data,read_previous_day_price=False):
     results = []
     equities = json_data
 
     for symbol, details in equities.items():
-        ldcp = details.get("ldcp", 0)  # last price
+        ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)  # last price
         eps = details.get("eps", 0)
         roe = details.get("roe", None)
         pat = details.get("pat", 0)
@@ -425,7 +425,7 @@ def find_undervalued(json_data):
     return sorted(results, key=lambda x: (x["score"], -x["pe_ratio"] if x["pe_ratio"] else 9999), reverse=True)
 
 # ------------------ Fundamentally Strong & Undervalued Strategy ------------------
-def find_fundamentally_strong(json_data):
+def find_fundamentally_strong(json_data,read_previous_day_price=False):
     """
     Identify fundamentally strong and undervalued stocks.
     Combines profitability, balance sheet health, valuation,
@@ -435,7 +435,7 @@ def find_fundamentally_strong(json_data):
     equities = json_data
 
     for symbol, details in equities.items():
-        ldcp = details.get("ldcp", 0)
+        ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         eps = details.get("eps", 0)
         roe = details.get("roe")
         roa = details.get("roa")
@@ -697,7 +697,7 @@ if __name__ == "__main__":
     with open("stocks.json", "r") as f:
         data = json.load(f)
     
-    
+    read_previous_day_price = False
     print("Choose trading strategy:")
     print("1. Day Trading")
     print("2. Swing Trading")
@@ -707,7 +707,7 @@ if __name__ == "__main__":
     choice = input("Enter choice (1/2/3/4): ").strip()
     
     if choice == "1":
-        recommendations = recommend_day_trade(data)
+        recommendations = recommend_day_trade(data,read_previous_day_price)
         filename = "day_trade.csv"
         fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score"]
     elif choice == "2":
@@ -717,20 +717,20 @@ if __name__ == "__main__":
             "pivot_support_bounce": 3,
             "pch_positive": 1,  # reduce daily momentum importance
         }
-        recommendations = recommend_swing_trade(data, config=custom_weights)
-        #recommendations = recommend_swing_trade(data)
+        recommendations = recommend_swing_trade(data, config=custom_weights,read_previous_day_price =read_previous_day_price)
+        #recommendations = recommend_swing_trade(data,read_previous_day_price)
         filename = "swing_trade.csv"
         fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score"]
     elif choice == "3":
-        recommendations = recommend_long_term(data)
+        recommendations = recommend_long_term(data,read_previous_day_price)
         filename = "long_term.csv"
         fields = ["symbol","name","price","eps","roe","roa","pat","per","pbr","dy","debt_equity","int_cover","current_ratio","quick_ratio","fcf","score","reasons"]
     elif choice == "4":
-        recommendations = find_undervalued(data)
+        recommendations = find_undervalued(data,read_previous_day_price)
         filename = "undervalued.csv"
         fields = ["symbol","name","price","eps","roe","pat","pe_ratio","book_value","score"]
     elif choice == "5":
-        recommendations = find_fundamentally_strong(data)
+        recommendations = find_fundamentally_strong(data,read_previous_day_price)
         filename = "fundamentally_strong.csv"
         fields = [
             "symbol", "name", "price", "eps", "roe", "roa", "per", "pbr", "dy",
