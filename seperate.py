@@ -250,14 +250,14 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
             "pch": pch,
             "volume": v,
             "rel_vol": round(rel_vol, 2),
-            "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else None,
+            "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else 0,
             "volatility_%": round(volatility, 2),
             "near_level": near_level,
             "score": score,
         })
 
     # --- Sort & Return ---
-    return sorted(results, key=lambda x: (x["score"], x["rel_vol"]), reverse=True)
+    return sorted(results, key=lambda x: (x["score"], x["volume"],-x['rsi'],-x["price"]), reverse=True)
 
 # ------------------ Long Term Strategy ------------------
 # ------------------ Long Term Strategy (Extended) ------------------
@@ -743,13 +743,18 @@ if __name__ == "__main__":
         print("❌ Invalid choice. Please run again.")
         exit()
     
+        # ...existing code...
     # Save results
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
     base, ext = os.path.splitext(filename)
     counter = 1
-    while os.path.exists(filename):
-        filename = f"{base}_{counter}{ext}"
+    filename_out = os.path.join(output_dir, filename)
+    while os.path.exists(filename_out):
+        filename_out = os.path.join(output_dir, f"{base}_{counter}{ext}")
         counter += 1
-    
-    save_to_csv(filename, recommendations, fields)
-    print(f"\n✅ Results saved to {filename}")
+
+    save_to_csv(filename_out, recommendations, fields)
+    print(f"\n✅ Results saved to {filename_out}")
+# ...existing code...
     # ...existing code...    print(f"\n✅ Results saved to {filename}")

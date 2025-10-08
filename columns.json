@@ -1,0 +1,1363 @@
+{
+    "symbol": {
+        "key": "symbol",
+        "name": "Symbol",
+        "type": "string",
+        "group": "qualitative",
+        "width": 100
+    },
+    "name": {
+        "key": "name",
+        "name": "Name",
+        "type": "string",
+        "group": "qualitative",
+        "width": 250
+    },
+    "sector": {
+        "key": "sector",
+        "name": "Sector",
+        "type": "string",
+        "group": "qualitative",
+        "width": 250
+    },
+    "open": {
+        "key": "open",
+        "name": "Open",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "high": {
+        "key": "high",
+        "name": "High",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "low": {
+        "key": "low",
+        "name": "Low",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "close": {
+        "key": "close",
+        "name": "Close",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "change": {
+        "key": "change",
+        "name": "Change",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00",
+        "colorize": true,
+        "compute": true
+    },
+    "pctChange": {
+        "key": "pctChange",
+        "name": "% Change",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true
+    },
+    "volume": {
+        "key": "volume",
+        "name": "Volume",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0"
+    },
+    "ldcp": {
+        "key": "ldcp",
+        "name": "LDCP",
+        "type": "number",
+        "group": "stats"
+    },
+    "high52": {
+        "key": "high52",
+        "name": "52w High",
+        "type": "number",
+        "group": "stats"
+    },
+    "low52": {
+        "key": "low52",
+        "name": "52w Low",
+        "type": "number",
+        "group": "stats"
+    },
+    "bidPrice": {
+        "key": "bidPrice",
+        "name": "Bid",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "bidVolume": {
+        "key": "bidVolume",
+        "name": "Bid Volume",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0",
+        "showDiff": true
+    },
+    "askPrice": {
+        "key": "askPrice",
+        "name": "Ask",
+        "type": "number",
+        "group": "stats",
+        "showDiff": true
+    },
+    "askVolume": {
+        "key": "askVolume",
+        "name": "Ask Volume",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0",
+        "showDiff": true
+    },
+    "shares": {
+        "key": "shares",
+        "name": "Shares",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0",
+        "width": 140
+    },
+    "float": {
+        "key": "float",
+        "name": "Free Float",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0",
+        "width": 140
+    },
+    "pctFloat": {
+        "key": "pctFloat",
+        "name": "Free Float %",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "compute": true,
+        "width": 140
+    },
+    "marketCap": {
+        "key": "marketCap",
+        "name": "Market Cap.",
+        "type": "number",
+        "group": "stats",
+        "format": "0,0",
+        "compute": true,
+        "width": 140
+    },
+    "pp": {
+        "key": "pp",
+        "name": "PP",
+        "longName": "Pivot Point",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "s1": {
+        "key": "s1",
+        "name": "S1",
+        "longName": "Support Level 1",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "s2": {
+        "key": "s2",
+        "name": "S2",
+        "longName": "Support Level 2",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "s3": {
+        "key": "s3",
+        "name": "S3",
+        "longName": "Support Level 3",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "r1": {
+        "key": "r1",
+        "name": "R1",
+        "longName": "Resistance Level 1",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "r2": {
+        "key": "r2",
+        "name": "R2",
+        "longName": "Resistance Level 2",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "r3": {
+        "key": "r3",
+        "name": "R3",
+        "longName": "Resistance Level 3",
+        "type": "number",
+        "group": "stats",
+        "width": 80
+    },
+    "beta": {
+        "key": "beta",
+        "name": "Beta",
+        "type": "number",
+        "group": "stats"
+    },
+    "pctChangeW": {
+        "key": "pctChangeW",
+        "name": "% Change (1W)",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true,
+        "width": 140
+    },
+    "pctChangeM": {
+        "key": "pctChangeM",
+        "name": "% Change (1M)",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true,
+        "width": 140
+    },
+    "pctChangeY": {
+        "key": "pctChangeY",
+        "name": "% Change (1Y)",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true,
+        "width": 140
+    },
+    "pctChangeYTD": {
+        "key": "pctChangeYTD",
+        "name": "% Change (YTD)",
+        "longName": "Year to Date",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true,
+        "width": 140
+    },
+    "pctChangeFY": {
+        "key": "pctChangeFY",
+        "name": "% Change (FY)",
+        "longName": "Fiscal Year",
+        "type": "number",
+        "group": "stats",
+        "format": "0.00%",
+        "colorize": true,
+        "compute": true,
+        "width": 140
+    },
+    "sales": {
+        "key": "sales",
+        "name": "Sales",
+        "longName": "Mark up Earned, Net Premium Revenue, Total Income",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "profit": {
+        "key": "profit",
+        "name": "PAT",
+        "longName": "Profit After Taxation",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "disc": {
+        "key": "disc",
+        "name": "DISCO",
+        "longName": "Distribution Cost",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "adex": {
+        "key": "adex",
+        "name": "ADEXP",
+        "longName": "Administrative Expenses",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "assets": {
+        "key": "assets",
+        "name": "Assets",
+        "longName": "Total Assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "c_assets": {
+        "key": "c_assets",
+        "name": "TCA",
+        "longName": "Total Current Assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "nc_assets": {
+        "key": "nc_assets",
+        "name": "TNCA",
+        "longName": "Total Non-Current Assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "liab": {
+        "key": "liab",
+        "name": "TL",
+        "longName": "Total Liabilities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "liabc": {
+        "key": "liabc",
+        "name": "TCL",
+        "longName": "Total Current Liabilities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "liabnc": {
+        "key": "liabnc",
+        "name": "TNCL",
+        "longName": "Total Non-Current Liabilities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "tetl": {
+        "key": "tetl",
+        "name": "TE&TL",
+        "longName": "Total Equity & Liabilities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "oinc": {
+        "key": "oinc",
+        "name": "OINC",
+        "longName": "Other Income",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "eps": {
+        "key": "eps",
+        "name": "EPS",
+        "longName": "Earnings per Share",
+        "type": "number",
+        "group": "financials"
+    },
+    "cos": {
+        "key": "cos",
+        "name": "COS",
+        "longName": "Cost of Sales",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "gp": {
+        "key": "gp",
+        "name": "GP",
+        "longName": "Gross Profit",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "opp": {
+        "key": "opp",
+        "name": "OP",
+        "longName": "Profit from Operations",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "fc": {
+        "key": "fc",
+        "name": "FC",
+        "longName": "Finance Cost",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "pbt": {
+        "key": "pbt",
+        "name": "PBT",
+        "longName": "Profit before Taxation",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "ssplt": {
+        "key": "ssplt",
+        "name": "STOCK",
+        "longName": "Stock, Spare Parts and Loose Tools",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "stktr": {
+        "key": "stktr",
+        "name": "SIT",
+        "longName": "Stock in Trade",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "int_assets": {
+        "key": "int_assets",
+        "name": "IntAssets",
+        "longName": "Intangible Assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "inv_prop": {
+        "key": "inv_prop",
+        "name": "InvProp",
+        "longName": "Investment Property",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "lt_inv": {
+        "key": "lt_inv",
+        "name": "LTInv",
+        "longName": "Long Term Investments",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cababal": {
+        "key": "cababal",
+        "name": "CaBaBal",
+        "longName": "Cash and Bank Balances",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "st_inv": {
+        "key": "st_inv",
+        "name": "STInv",
+        "longName": "Short term investments",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "loan_adv": {
+        "key": "loan_adv",
+        "name": "LoanAdv",
+        "longName": "Loans and Advances",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "sur_reval": {
+        "key": "sur_reval",
+        "name": "SurpRev",
+        "longName": "Surplus on revaluation",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "sub_loan": {
+        "key": "sub_loan",
+        "name": "SubLoan",
+        "longName": "Subordinated loans",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "emp_obl": {
+        "key": "emp_obl",
+        "name": "EmpObl",
+        "longName": "Employee benefit obligations",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "acc_mkp": {
+        "key": "acc_mkp",
+        "name": "AccMarkup",
+        "longName": "Accrued markup",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "st_borr": {
+        "key": "st_borr",
+        "name": "STBorr",
+        "longName": "Short term borrowings",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cp_lt_borr": {
+        "key": "cp_lt_borr",
+        "name": "CurrLTB",
+        "longName": "Current portion of long term borrowings",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cp_le_liab": {
+        "key": "cp_le_liab",
+        "name": "CurrLeLiab",
+        "longName": "Current portion of lease liabilities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "reserves": {
+        "key": "reserves",
+        "name": "RES",
+        "longName": "Reserves",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "acc_gnl": {
+        "key": "acc_gnl",
+        "name": "AccGL",
+        "longName": "Accumalated Gain/Loss",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "prop_plant_eq": {
+        "key": "prop_plant_eq",
+        "name": "PPEQ",
+        "longName": "Property, plant and equipment",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "lt_debt": {
+        "key": "lt_debt",
+        "name": "LTDebt",
+        "longName": "Long Term Debt",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "tr_debt": {
+        "key": "tr_debt",
+        "name": "TRDebt",
+        "longName": "Trade Debt",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "trade_pay": {
+        "key": "trade_pay",
+        "name": "TradePay",
+        "longName": "Trade and Other Payables",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "share_cap": {
+        "key": "share_cap",
+        "name": "ShareCap",
+        "longName": "Share Capital",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "dps": {
+        "key": "dps",
+        "name": "DPS",
+        "longName": "Dividend per Share",
+        "type": "number",
+        "group": "financials"
+    },
+    "gpm": {
+        "key": "gpm",
+        "name": "GPM",
+        "longName": "Gross Profit Margin, Gross Spread Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "npm": {
+        "key": "npm",
+        "name": "NPM",
+        "longName": "Net Profit Margin",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "pbtm": {
+        "key": "pbtm",
+        "name": "PBTM",
+        "longName": "Profit Before Tax Margin",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "opm": {
+        "key": "opm",
+        "name": "OPM",
+        "longName": "Operating Profit Margin",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "ooi": {
+        "key": "ooi",
+        "name": "OIP",
+        "longName": "Other income to PAT",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "roe": {
+        "key": "roe",
+        "name": "ROE",
+        "longName": "Return on Equity",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "roa": {
+        "key": "roa",
+        "name": "ROA",
+        "longName": "Return on Assets",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "roce": {
+        "key": "roce",
+        "name": "ROCE",
+        "longName": "Return on Capital Employed",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "divy": {
+        "key": "divy",
+        "name": "DY",
+        "longName": "Dividend Yield",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "divyLive": {
+        "key": "divyLive",
+        "name": "DY",
+        "longName": "Dividend Yield",
+        "type": "number",
+        "group": "fundamentals",
+        "depends": [
+            "dps|TTM"
+        ],
+        "compute": true,
+        "hidden": true
+    },
+    "divc": {
+        "key": "divc",
+        "name": "Div Cover",
+        "longName": "Dividend Cover",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "avga": {
+        "key": "avga",
+        "name": "Average Asset",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "retr": {
+        "key": "retr",
+        "name": "RetRat",
+        "longName": "Cash Retention Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "epc": {
+        "key": "epc",
+        "name": "EPC",
+        "longName": "Earnings per Certificate",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "dpr": {
+        "key": "dpr",
+        "name": "PayRat",
+        "longName": "Cash Payout Ratio",
+        "type": "number",
+        "group": "fundamentals",
+        "width": 160
+    },
+    "hsp": {
+        "key": "hsp",
+        "name": "HistSP",
+        "longName": "Historical Share Price",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "nos": {
+        "key": "nos",
+        "name": "# Shares",
+        "longName": "Number of shares",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "sps": {
+        "key": "sps",
+        "name": "SPS",
+        "longName": "Sales per share, Mark-up per share, Premium per Share",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "bval": {
+        "key": "bval",
+        "name": "BV/Sh",
+        "longName": "Book Value per share (Rs)",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "perLive": {
+        "key": "perLive",
+        "name": "PER",
+        "longName": "Price Earning's Ratio",
+        "type": "number",
+        "group": "stats",
+        "depends": [
+            "eps|TTM"
+        ],
+        "compute": true,
+        "hidden": true
+    },
+    "per": {
+        "key": "per",
+        "name": "PER",
+        "longName": "Price Earning's Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "pbr": {
+        "key": "pbr",
+        "name": "PBR",
+        "longName": "Price/Book Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "pbrLive": {
+        "key": "pbrLive",
+        "name": "PBR",
+        "longName": "Price/Book Ratio",
+        "type": "number",
+        "group": "stats",
+        "depends": [
+            "bval|TTM"
+        ],
+        "compute": true,
+        "hidden": true
+    },
+    "psr": {
+        "key": "psr",
+        "name": "PSR",
+        "longName": "Price to Sales Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "psrLive": {
+        "key": "psrLive",
+        "name": "PSR",
+        "longName": "Price to Sales Ratio",
+        "type": "number",
+        "group": "stats",
+        "depends": [
+            "sps|TTM"
+        ],
+        "compute": true,
+        "hidden": true
+    },
+    "nas": {
+        "key": "nas",
+        "name": "NA/Sh",
+        "longName": "Net Asset per Share",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "itd": {
+        "key": "itd",
+        "name": "Inv/Dep",
+        "longName": "Investments to Deposits",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "dte": {
+        "key": "dte",
+        "name": "Dep/TE",
+        "longName": "Deposits to Equity",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "eqa": {
+        "key": "eqa",
+        "name": "TE/Adv",
+        "longName": "Equity to Advances",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "eqm": {
+        "key": "eqm",
+        "name": "TEx",
+        "longName": "Equity Multiplier",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "eqar": {
+        "key": "eqar",
+        "name": "TE/TA",
+        "longName": "Total Equity to Total Asset Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "lia": {
+        "key": "lia",
+        "name": "TL/TA",
+        "longName": "Liabilities to Assets",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "grat": {
+        "key": "grat",
+        "name": "LTD/TE",
+        "longName": "Long term Debt to Total Equity",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "ltda": {
+        "key": "ltda",
+        "name": "LTD/TA",
+        "longName": "Long Term Debt to Assets Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "solr": {
+        "key": "solr",
+        "name": "Sol Ratio",
+        "longName": "Solvency Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "intc": {
+        "key": "intc",
+        "name": "Int Cover",
+        "longName": "Interest Cover",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "ctd": {
+        "key": "ctd",
+        "name": "Cash/Dep",
+        "longName": "Cash to Deposit Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "cps": {
+        "key": "cps",
+        "name": "Cash/Sh",
+        "longName": "Cash per Share",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "curr": {
+        "key": "curr",
+        "name": "Curr Ratio",
+        "longName": "Current Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "qrat": {
+        "key": "qrat",
+        "name": "Quick Ratio",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "ccli": {
+        "key": "ccli",
+        "name": "C/CL",
+        "longName": "Cash to Current Liabilities",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "wcap": {
+        "key": "wcap",
+        "name": "WC Rs",
+        "longName": "Working Capital (RS)",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "wcapd": {
+        "key": "wcapd",
+        "name": "WC Days",
+        "longName": "Working Capital (Days)",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "recd": {
+        "key": "recd",
+        "name": "Rec Day",
+        "longName": "Receiveable Days",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "invd": {
+        "key": "invd",
+        "name": "Inv Day",
+        "longName": "Inventory Days",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "payd": {
+        "key": "payd",
+        "name": "Pay Day",
+        "longName": "Payable Days",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "tat": {
+        "key": "tat",
+        "name": "TA T/O",
+        "longName": "Total Assets Turnover",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "fat": {
+        "key": "fat",
+        "name": "FA T/O",
+        "longName": "Fixed Asset Turnonver",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "ito": {
+        "key": "ito",
+        "name": "Inv T/O",
+        "longName": "Inventory Turnover",
+        "type": "number",
+        "group": "fundamentals"
+    },
+    "dep_fa": {
+        "key": "dep_fa",
+        "name": "DepFa",
+        "longName": "Depreciation on fixed assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "amort": {
+        "key": "amort",
+        "name": "Amort",
+        "longName": "Amortization",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "royalty": {
+        "key": "royalty",
+        "name": "Royalty",
+        "longName": "Royalty",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "wor_capc": {
+        "key": "wor_capc",
+        "name": "WCC",
+        "longName": "Working capital changes",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cash_gen_oa": {
+        "key": "cash_gen_oa",
+        "name": "CGO",
+        "longName": "Cash generated from operating activities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "net_cf_oa": {
+        "key": "net_cf_oa",
+        "name": "NCO",
+        "longName": "Net cash flow from operating activities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "div_rec": {
+        "key": "div_rec",
+        "name": "DivRec",
+        "longName": "Dividends received",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "pur_fa": {
+        "key": "pur_fa",
+        "name": "PFA",
+        "longName": "Purchase of fixed assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "pur_ia": {
+        "key": "pur_ia",
+        "name": "PIA",
+        "longName": "Purchase of Intangible assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "pro_sale_fa": {
+        "key": "pro_sale_fa",
+        "name": "PSF",
+        "longName": "Proceeds from sale of fixed assets",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "net_cf_ia": {
+        "key": "net_cf_ia",
+        "name": "NCI",
+        "longName": "Net cash flow used in investing activities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "div_paid": {
+        "key": "div_paid",
+        "name": "DP",
+        "longName": "Dividend Paid",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "lt_load": {
+        "key": "lt_load",
+        "name": "LL",
+        "longName": "Long-term loan obtained",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "net_cf_fina": {
+        "key": "net_cf_fina",
+        "name": "NCF",
+        "longName": "Net cash flow used in financing activities",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "inc_cash_eq": {
+        "key": "inc_cash_eq",
+        "name": "ICE",
+        "longName": "Increase in cash and cash equivalent",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cash_eq_bop": {
+        "key": "cash_eq_bop",
+        "name": "CEB",
+        "longName": "Cash and cash equivalents at beginning of the period",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "cash_eq_eop": {
+        "key": "cash_eq_eop",
+        "name": "CEE",
+        "longName": "Cash and cash equivalents at end of the period",
+        "type": "number",
+        "group": "financials",
+        "format": "0,0"
+    },
+    "sma": {
+        "key": "sma",
+        "name": "SMA",
+        "longName": "Simple Moving Average",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "width": 150,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range"
+            }
+        ]
+    },
+    "rsi": {
+        "key": "rsi",
+        "name": "RSI",
+        "longName": "Relative Strength Index",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "width": 150,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range"
+            }
+        ]
+    },
+    "bb": {
+        "key": "bb",
+        "name": "BB",
+        "longName": "Bollinger Bands",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "width": 150,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range"
+            },
+            {
+                "name": "Multiplier",
+                "type": "range",
+                "range": [
+                    2,
+                    10
+                ],
+                "default": "2"
+            },
+            {
+                "name": "Band",
+                "type": "options",
+                "default": "M",
+                "options": [
+                    {
+                        "label": "Upper (U)",
+                        "value": "U"
+                    },
+                    {
+                        "label": "Middle (M)",
+                        "value": "M"
+                    },
+                    {
+                        "label": "Lower (L)",
+                        "value": "L"
+                    }
+                ]
+            }
+        ]
+    },
+    "stoch": {
+        "key": "stoch",
+        "name": "STOCH",
+        "longName": "Stochastic Oscillator",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "width": 175,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "K",
+                "type": "range",
+                "range": [
+                    1,
+                    50
+                ],
+                "default": "14"
+            },
+            {
+                "name": "D",
+                "type": "range",
+                "range": [
+                    1,
+                    5
+                ],
+                "default": "3"
+            },
+            {
+                "name": "Smooth",
+                "type": "range",
+                "range": [
+                    1,
+                    5
+                ],
+                "default": "3"
+            },
+            {
+                "name": "Line",
+                "type": "options",
+                "default": "D",
+                "options": [
+                    {
+                        "label": "%K",
+                        "value": "K"
+                    },
+                    {
+                        "label": "%D",
+                        "value": "D"
+                    }
+                ]
+            }
+        ]
+    },
+    "macd": {
+        "key": "macd",
+        "name": "MACD",
+        "longName": "Moving Average Convergence/Divergence",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "width": 175,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Fast",
+                "type": "range",
+                "range": [
+                    1,
+                    100
+                ],
+                "default": "12"
+            },
+            {
+                "name": "Slow",
+                "type": "range",
+                "range": [
+                    1,
+                    100
+                ],
+                "default": "26"
+            },
+            {
+                "name": "Signal",
+                "type": "range",
+                "range": [
+                    1,
+                    20
+                ],
+                "default": "9"
+            },
+            {
+                "name": "Line",
+                "type": "options",
+                "default": "M",
+                "options": [
+                    {
+                        "label": "MACD",
+                        "value": "M"
+                    },
+                    {
+                        "label": "Signal",
+                        "value": "S"
+                    },
+                    {
+                        "label": "Histogram",
+                        "value": "H"
+                    }
+                ]
+            }
+        ]
+    },
+    "cci": {
+        "key": "cci",
+        "name": "CCI",
+        "longName": "Commodity Channel Index",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range",
+                "range": [
+                    1,
+                    200
+                ],
+                "default": "20"
+            }
+        ]
+    },
+    "atr": {
+        "key": "atr",
+        "name": "ATR",
+        "longName": "Average True Range",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range",
+                "range": [
+                    1,
+                    100
+                ],
+                "default": "100"
+            }
+        ]
+    },
+    "volt": {
+        "key": "volt",
+        "name": "VOLT",
+        "longName": "Volatility",
+        "type": "number",
+        "group": "technicals",
+        "showDiff": true,
+        "params": [
+            {
+                "name": "Interval",
+                "type": "interval"
+            },
+            {
+                "name": "Period",
+                "type": "range"
+            }
+        ]
+    }
+}
