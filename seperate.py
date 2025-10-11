@@ -24,7 +24,7 @@ def merge_metrics(base_data, roe_data, roa_data,bv_data):
 # ------------------ Day Trading Strategy ------------------
 def recommend_day_trade(json_data,read_previous_day_price=False):
     results = []
-    equities = json_data.get("data", {}).get("eq", {})
+    equities = json_data
     
     for symbol, details in equities.items():
         ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
@@ -101,25 +101,26 @@ def recommend_day_trade(json_data,read_previous_day_price=False):
     return sorted(results, key=lambda x: (x["score"], x["rel_vol"]), reverse=True)
 
 # ------------------ Swing Trading Strategy ------------------
-def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
+def recommend_swing_trade(json_data, config=None, read_previous_day_price=False):
     """
     Swing trade screener — enhanced logic with trend, momentum, volume, RSI, and pivots.
+    Includes reasons for each score component.
 
     Args:
         json_data: JSON data from screener (with 'data' > 'eq' structure)
         config: optional dict of scoring weights
     Returns:
-        Sorted list of swing trade candidates
+        Sorted list of swing trade candidates with reasons
     """
 
     # --- Default weights ---
     weights = {
         "pch_positive": 2,
-        "pch_negative": 1,
+        "pch_negative": -1,
         "rel_vol_high": 2,
         "rel_vol_medium": 1,
         "rsi_oversold": 2,
-        "rsi_overbought": 1,
+        "rsi_overbought": -1,
         "volatility_high": 1,
         "trend_bullish": 2,
         "trend_bearish": -1,
@@ -138,13 +139,12 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
     equities = json_data
 
     for symbol, details in equities.items():
+        reasons = []  # <-- store explanations
         ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         pch = details.get("pch", 0)
         v = details.get("v", 0)
         vm = details.get("vm", 0)
         rsi = details.get("rsi", None)
-        
-        
         uc = details.get("uc", 0)
         lc = details.get("lc", 0)
         pp_data = details.get("pp") or {}
@@ -152,10 +152,10 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
         # Skip invalids / illiquid
         if not ldcp:
             continue
+
         technicals = details.get("technicals", [])
         rsi = calculate_rsi(technicals, 20)
-        if(symbol=="SPEL"):
-            print(details)
+
         # --- Derived Metrics ---
         rel_vol = (v / vm) if vm else 0
         volatility = ((uc - lc) / ldcp * 100) if ldcp > 0 else 0
@@ -165,48 +165,56 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
         # --- Momentum (Daily) ---
         if pch > 2:
             score += weights["pch_positive"]
+            reasons.append(f"Positive daily change ({pch:.2f}%)")
         elif pch < -2:
             score += weights["pch_negative"]
+            reasons.append(f"Negative daily change ({pch:.2f}%)")
 
         # --- Volume Strength ---
         if rel_vol > 2:
             score += weights["rel_vol_high"]
+            reasons.append(f"High relative volume ({rel_vol:.2f}× avg)")
         elif rel_vol > 1:
             score += weights["rel_vol_medium"]
+            reasons.append(f"Moderate relative volume ({rel_vol:.2f}× avg)")
 
         # --- RSI ---
         if rsi and abs(rsi) < 1000:
             if rsi < 30:
                 score += weights["rsi_oversold"]
+                reasons.append(f"RSI oversold ({rsi:.2f})")
             elif rsi > 70:
                 score += weights["rsi_overbought"]
+                reasons.append(f"RSI overbought ({rsi:.2f})")
 
         # --- Volatility ---
         if volatility > 5:
             score += weights["volatility_high"]
+            reasons.append(f"High volatility ({volatility:.2f}%)")
 
         # --- Trend Confirmation (SMA) ---
-        sma_20 = details.get("sma_20")
-        
         sma_20 = calculate_sma(technicals, 20)
         sma_50 = calculate_sma(technicals, 50)
         if sma_20 and sma_50:
             if sma_20 > sma_50:
                 score += weights["trend_bullish"]
+                reasons.append(f"Bullish trend (SMA20 {sma_20:.2f} > SMA50 {sma_50:.2f})")
             elif sma_20 < sma_50:
                 score += weights["trend_bearish"]
+                reasons.append(f"Bearish trend (SMA20 {sma_20:.2f} < SMA50 {sma_50:.2f})")
 
         # --- Multi-Timeframe Momentum ---
         p1m = details.get("p1m", 0)
         p1w = details.get("p1w", 0)
-        
         pch_1w = calculate_pch(ldcp, p1w)
         pch_1m = calculate_pch(ldcp, p1m)
-        
+
         if pch_1w > 3:
             score += weights["momentum_week"]
+            reasons.append(f"Weekly momentum strong ({pch_1w:.2f}%)")
         if pch_1m > 5:
             score += weights["momentum_month"]
+            reasons.append(f"Monthly momentum strong ({pch_1m:.2f}%)")
 
         # --- Pivot Point Proximity ---
         pivot_levels = {
@@ -218,29 +226,29 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
             "S2": pp_data.get("s2", 0),
             "S3": pp_data.get("s3", 0),
         }
-
+        if(symbol=="PIOC"):
+            print(pivot_levels)
         for level_name, level_value in pivot_levels.items():
             if level_value and abs(ldcp - level_value) / ldcp < 0.02:
                 near_level = level_name
                 score += weights["pivot_near"]
+                reasons.append(f"Near {level_name} pivot level")
 
                 # Bounce/Reject Logic
                 if level_name in ("S1", "S2") and rsi and rsi < 35:
                     score += weights["pivot_support_bounce"]
+                    reasons.append(f"Bounce from {level_name} with RSI {rsi:.2f}")
                 elif level_name in ("R1", "R2") and rsi and rsi > 65:
                     score += weights["pivot_resistance_reject"]
+                    reasons.append(f"Rejection from {level_name} with RSI {rsi:.2f}")
                 break
 
         # --- MACD Confirmation ---
-
-        macd = calculate_macd(technicals, 12, 26, 9, 'M')  # MACD main line
-        macd_signal = calculate_macd(technicals, 12, 26, 9, 'S')  # Signal line
-
-
-        # macd = details.get("macd")
-        # macd_signal = details.get("macd_signal")
+        macd = calculate_macd(technicals, 12, 26, 9, 'M')
+        macd_signal = calculate_macd(technicals, 12, 26, 9, 'S')
         if macd and macd_signal and macd > macd_signal:
             score += weights["macd_bullish"]
+            reasons.append(f"MACD bullish crossover ({macd:.2f} > {macd_signal:.2f})")
 
         # --- Collect Result ---
         results.append({
@@ -254,10 +262,11 @@ def recommend_swing_trade(json_data, config=None,read_previous_day_price=False):
             "volatility_%": round(volatility, 2),
             "near_level": near_level,
             "score": score,
+            "reasons": reasons,  # <-- added
         })
 
     # --- Sort & Return ---
-    return sorted(results, key=lambda x: (x["score"], x["volume"],-x['rsi'],-x["price"]), reverse=True)
+    return sorted(results, key=lambda x: (x["score"], x["volume"], -x['rsi'], -x["price"]), reverse=True)
 
 # ------------------ Long Term Strategy ------------------
 # ------------------ Long Term Strategy (Extended) ------------------
@@ -697,7 +706,7 @@ if __name__ == "__main__":
     with open("stocks.json", "r") as f:
         data = json.load(f)
     
-    read_previous_day_price = False
+    read_previous_day_price = True
     print("Choose trading strategy:")
     print("1. Day Trading")
     print("2. Swing Trading")
@@ -720,7 +729,7 @@ if __name__ == "__main__":
         recommendations = recommend_swing_trade(data, config=custom_weights,read_previous_day_price =read_previous_day_price)
         #recommendations = recommend_swing_trade(data,read_previous_day_price)
         filename = "swing_trade.csv"
-        fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score"]
+        fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score","reasons"]
     elif choice == "3":
         recommendations = recommend_long_term(data,read_previous_day_price)
         filename = "long_term.csv"
