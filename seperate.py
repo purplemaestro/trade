@@ -139,6 +139,8 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
     equities = json_data
 
     for symbol, details in equities.items():
+        if(symbol=="UNITY"):
+            print(pivot_levels)
         reasons = []  # <-- store explanations
         ldcp = read_previous_day_price and details.get("ldcp", 0) or details.get("c", 0)
         pch = details.get("pch", 0)
@@ -149,13 +151,13 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
         lc = details.get("lc", 0)
         pp_data = details.get("pp") or {}
 
-        # Skip invalids / illiquid
-        if not ldcp:
-            continue
+        
 
         technicals = details.get("technicals", [])
-        rsi = calculate_rsi(technicals, 20)
-
+        rsi = calculate_rsi(technicals, 14)
+# Skip invalids / illiquid
+        if not ldcp or rsi == None or rsi == 0 or v == 0:
+            continue
         # --- Derived Metrics ---
         rel_vol = (v / vm) if vm else 0
         volatility = ((uc - lc) / ldcp * 100) if ldcp > 0 else 0
@@ -226,8 +228,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "S2": pp_data.get("s2", 0),
             "S3": pp_data.get("s3", 0),
         }
-        if(symbol=="PIOC"):
-            print(pivot_levels)
+        
         for level_name, level_value in pivot_levels.items():
             if level_value and abs(ldcp - level_value) / ldcp < 0.02:
                 near_level = level_name
@@ -706,7 +707,7 @@ if __name__ == "__main__":
     with open("stocks.json", "r") as f:
         data = json.load(f)
     
-    read_previous_day_price = True
+    read_previous_day_price = False
     print("Choose trading strategy:")
     print("1. Day Trading")
     print("2. Swing Trading")
