@@ -90,7 +90,7 @@ def recommend_day_trade(json_data,read_previous_day_price=False):
             "name": details.get("nm", ""),
             "price": ldcp,
             "pch": pch,
-            "volume": human_readable_number(v),
+            "volume": v,
             "rel_vol": round(rel_vol, 2),
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else None,
             "volatility_%": round(volatility, 2),
@@ -259,7 +259,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "name": details.get("nm", ""),
             "price": ldcp,
             "pch": pch,
-            "volume": human_readable_number(v),
+            "volume": v,
             "rel_vol": round(rel_vol, 2),
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else 0,
             "volatility_%": round(volatility, 2),
@@ -269,7 +269,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
         })
 
     # --- Sort & Return ---
-    return sorted(results, key=lambda x: (x["score"], x["volume"], -x['rsi'], -x["price"]), reverse=True)
+    return sorted(results, key=lambda x: (x["volume"], -x['rsi']), reverse=True)
 
 # ------------------ Long Term Strategy ------------------
 # ------------------ Long Term Strategy (Extended) ------------------
