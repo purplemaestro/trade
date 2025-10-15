@@ -90,7 +90,7 @@ def recommend_day_trade(json_data,read_previous_day_price=False):
             "name": details.get("nm", ""),
             "price": ldcp,
             "pch": pch,
-            "volume": v,
+            "volume": human_readable_number(v),
             "rel_vol": round(rel_vol, 2),
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else None,
             "volatility_%": round(volatility, 2),
@@ -250,6 +250,8 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
         if macd and macd_signal and macd > macd_signal:
             score += weights["macd_bullish"]
             reasons.append(f"MACD bullish crossover ({macd:.2f} > {macd_signal:.2f})")
+        elif macd and macd_signal:
+            reasons.append(f"MACD bearish ({macd:.2f} < {macd_signal:.2f})")
 
         # --- Collect Result ---
         results.append({
@@ -257,7 +259,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "name": details.get("nm", ""),
             "price": ldcp,
             "pch": pch,
-            "volume": v,
+            "volume": human_readable_number(v),
             "rel_vol": round(rel_vol, 2),
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else 0,
             "volatility_%": round(volatility, 2),
@@ -597,7 +599,15 @@ def calculate_sma(technicals, period):
 
 def calculate_pch(e,t):
         return (e - t) / t if t != 0 else 0
-
+def human_readable_number(n):
+    if n >= 1_000_000_000:
+        return f"{n/1_000_000_000:.2f}B"
+    elif n >= 1_000_000:
+        return f"{n/1_000_000:.2f}M"
+    elif n >= 1_000:
+        return f"{n/1_000:.2f}K"
+    else:
+        return str(n)
 def calculate_rsi(data, period):
     n = int(period)
     if len(data) < n + 1:
