@@ -228,21 +228,18 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "S2": pp_data.get("s2", 0),
             "S3": pp_data.get("s3", 0),
         }
+        near_level = min(pivot_levels.items(), key=lambda x: abs(ldcp - x[1]) if x[1] else float('inf'))[0]
+        if(near_level == "Pivot"):
+            score += weights["pivot_near"]
+            reasons.append(f"Near {near_level} pivot level")
+        # Bounce/Reject Logic
+        elif near_level in ("S1", "S2","S3") and rsi and rsi < 35:
+            score += weights["pivot_support_bounce"]
+            reasons.append(f"Bounce from {near_level} with RSI {rsi:.2f}")
+        elif near_level in ("R1", "R2","R3") and rsi and rsi > 65:
+            score += weights["pivot_resistance_reject"]
+            reasons.append(f"Rejection from {near_level} with RSI {rsi:.2f}")
         
-        for level_name, level_value in pivot_levels.items():
-            if level_value and abs(ldcp - level_value) / ldcp < 0.02:
-                near_level = level_name
-                score += weights["pivot_near"]
-                reasons.append(f"Near {level_name} pivot level")
-
-                # Bounce/Reject Logic
-                if level_name in ("S1", "S2") and rsi and rsi < 35:
-                    score += weights["pivot_support_bounce"]
-                    reasons.append(f"Bounce from {level_name} with RSI {rsi:.2f}")
-                elif level_name in ("R1", "R2") and rsi and rsi > 65:
-                    score += weights["pivot_resistance_reject"]
-                    reasons.append(f"Rejection from {level_name} with RSI {rsi:.2f}")
-                break
 
         # --- MACD Confirmation ---
         macd = calculate_macd(technicals, 12, 26, 9, 'M')
@@ -258,11 +255,8 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "symbol": symbol,
             "name": details.get("nm", ""),
             "price": ldcp,
-            "pch": pch,
             "volume": v,
-            "rel_vol": round(rel_vol, 2),
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else 0,
-            "volatility_%": round(volatility, 2),
             "near_level": near_level,
             "score": score,
             "reasons": reasons,  # <-- added
@@ -740,7 +734,7 @@ if __name__ == "__main__":
         recommendations = recommend_swing_trade(data, config=custom_weights,read_previous_day_price =read_previous_day_price)
         #recommendations = recommend_swing_trade(data,read_previous_day_price)
         filename = "swing_trade.csv"
-        fields = ["symbol","name","price","pch","volume","rel_vol","rsi","volatility_%","near_level","score","reasons"]
+        fields = ["symbol","name","price","volume","rsi","near_level","score","reasons"]
     elif choice == "3":
         recommendations = recommend_long_term(data,read_previous_day_price)
         filename = "long_term.csv"
