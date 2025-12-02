@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- DataTables -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
+    />
+
+    <style>
+      body {
+        background: #f7f9fc;
+      }
+      .container-box {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        margin-top: 40px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      }
+      h2 {
+        font-weight: 600;
+      }
+      table.dataTable tbody tr:hover {
+        background-color: #f1f5ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <h2 class="mb-3">{{ title }}</h2>
+
+      <table
+        id="resultsTable"
+        class="display table table-striped table-bordered"
+      >
+        <thead class="table-dark">
+          <tr>
+            {% for col in results[0].keys() %}
+            <th>{{ col }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for row in results %}
+          <tr>
+            {% for value in row.values() %}
+            <td>{{ value }}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% set columns = results | list %}
+    <script>
+      console.log("Template columns:", {{ columns|tojson }});
+    </script>
+    <!-- JS libs -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#resultsTable").DataTable({
+          paging: false, // ❌ Disable pagination
+          info: false, // ❌ Hide "Showing X of Y"
+          //scrollX: true, // Enable horizontal scroll if wide
+          scrollY: "700px", // Large table scroll container
+          scrollCollapse: true,
+        });
+      });
+    </script>
+  </body>
+</html>

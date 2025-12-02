@@ -457,8 +457,9 @@ def find_fundamentally_strong(json_data,read_previous_day_price=False):
         int_cover = details.get("intc")
         current_ratio = details.get("curr")
         sales_growth = details.get("%chg1y")
-        technicals = details.get("technicals")  # Expect list of bars [timestamp, open, high, low, close, volume]
-        rsi = details.get("rsi")  # Assume you already store RSI value in JSON
+        technicals = details.get("technicals", [])
+
+        rsi = calculate_rsi(technicals, 14)
 
         if ldcp <= 0 or eps <= 0:
             continue
