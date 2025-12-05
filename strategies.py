@@ -113,7 +113,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
 
     results = []
     equities = json_data
-
+    FAIR_PE = 15  # assumed fair P/E for valuation
     for symbol, details in equities.items():
         if(symbol=="UNITY"):
             print(pivot_levels)
@@ -126,7 +126,12 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
         uc = details.get("uc", 0)
         lc = details.get("lc", 0)
         pp_data = details.get("pp") or {}
+        eps = details.get("eps", None)
+        fair_price = None
+        valuation_note = None
 
+        if eps:
+            fair_price = round(eps * FAIR_PE, 2)
         
 
         technicals = details.get("technicals", [])
@@ -235,6 +240,7 @@ def recommend_swing_trade(json_data, config=None, read_previous_day_price=False)
             "rsi": round(rsi, 2) if rsi and abs(rsi) < 1000 else 0,
             "near_level": near_level,
             "score": score,
+            "fair_price": fair_price,
             "reasons": reasons,  # <-- added
         })
 
